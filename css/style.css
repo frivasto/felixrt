@@ -841,4 +841,8 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
+
+.navbar-dark .navbar-brand img{
+  width: 3em;
+}
 /*# sourceMappingURL=style.css.map */
