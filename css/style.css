@@ -43,8 +43,8 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
-  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  line-height: 75px;
 }
 
 h1, .h1 {
@@ -81,6 +81,13 @@ h6, .h6 {
   font-size: 14px;
 }
 
+/* Color Style */
+.primary{
+  color: #F74D70;
+}
+.secondary{
+  color: #5DE3F5;
+}
 /* Button style */
 .btn {
   font-size: 22px;
@@ -243,7 +250,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #000000 !important;
 }
 
 .bg-gray {
@@ -319,11 +326,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Lora", serif !important;
 }
 
 .font-tertiary {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Roboto", san-serif !important;
 }
 
 .shadow {
@@ -411,7 +418,7 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: #000000;
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -422,17 +429,23 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #41228e;
+    background: #000000;
   }
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Playfair Display", serif;
+  font-family: "Lora", serif;
   text-transform: uppercase;
+  padding: 8px 0;
+  display: inline-block;
+}
+.navbar .nav-item{
   padding: 15px;
 }
-.navbar .nav-item.active {
+.navbar .nav-item.active a{
   font-weight: bold;
+  border-bottom: 2px solid #5DE3F5;
+  padding: 8px 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -508,6 +521,14 @@ textarea.form-control {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+/* Main Cover */
+
+.cover-text{
+  font-size: 64px;
+  opacity: 95%;
+  color: #ffffff;
 }
 
 /* skills */
