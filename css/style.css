@@ -140,7 +140,19 @@ h6, .h6 {
 .btn-transparent:active, .btn-transparent:hover {
   color: #41228e;
 }
-
+.badge{
+  padding-left: 2em;
+  border-radius: 0;
+}
+a.badge, a.badge:hover{
+  color: #000000;
+}
+.bg-danger, .bg-danger:hover {
+  background-color: #F16EC9 !important;
+}
+a.bg-danger:hover{
+  background-color: #F16EC9 !important;
+}
 body {
   background-color: #fff;
   overflow-x: hidden;
