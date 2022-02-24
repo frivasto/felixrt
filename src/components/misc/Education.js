@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const Education = () => {
     return (
@@ -13,7 +14,7 @@ const Education = () => {
                         <div className="col-lg-6 col-md-6 mb-80">
                             <div className="d-flex">
                             <div className="mr-lg-5 mr-3">
-                                <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+                                <FontAwesomeIcon icon={solid('graduation-cap')} size="xs" className=' icon icon-light icon-bg bg-white shadow rounded-circle d-block'/>
                             </div>
                             <div>
                                 <p className="text-dark mb-1">2022</p>
@@ -25,7 +26,7 @@ const Education = () => {
                         <div className="col-lg-6 col-md-6 mb-80">
                             <div className="d-flex">
                             <div className="mr-lg-5 mr-3">
-                                <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+                                <FontAwesomeIcon icon={solid('graduation-cap')} className=' icon icon-light icon-bg bg-white shadow rounded-circle d-block'/>
                             </div>
                             <div>
                                 <p className="text-dark mb-1">2022</p>
@@ -37,7 +38,7 @@ const Education = () => {
                         <div className="col-lg-6 col-md-6 mb-80">
                             <div className="d-flex">
                             <div className="mr-lg-5 mr-3">
-                                <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+                                <FontAwesomeIcon icon={solid('graduation-cap')} className=' icon icon-light icon-bg bg-white shadow rounded-circle d-block'/>
                             </div>
                             <div>
                                 <p className="text-dark mb-1">2012</p>
@@ -49,7 +50,7 @@ const Education = () => {
                         <div className="col-lg-6 col-md-6 mb-80">
                             <div className="d-flex">
                             <div className="mr-lg-5 mr-3">
-                                <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+                                <FontAwesomeIcon icon={solid('graduation-cap')} className=' icon icon-light icon-bg bg-white shadow rounded-circle d-block'/>
                             </div>
                             <div>
                                 <p className="text-dark mb-1">2013</p>

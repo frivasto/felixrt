@@ -1,7 +1,7 @@
 import React from 'react'
 import $ from 'jquery'
 
-class HomeContact extends React.Component {
+class ContactSection extends React.Component {
     componentDidMount(){
         $('[data-background]').each(function () {
             $(this).css({
@@ -46,4 +46,4 @@ class HomeContact extends React.Component {
     }
 }
 
-export default HomeContact;
+export default ContactSection;

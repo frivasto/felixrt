@@ -44,7 +44,7 @@
     
 
 
-
+    
     // Shuffle js filter and masonry
     var Shuffle = window.Shuffle;
     var jQuery = window.jQuery;

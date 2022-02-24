@@ -7,19 +7,19 @@ import Skills from '../misc/Skills'
 import Experience from '../misc/Experience'
 import Education from '../misc/Education'
 import HomePortfolio from '../misc/HomePortfolio'
-import HomeContact from '../misc/HomeContact'
+import ContactSection from '../misc/ContactSection'
 
 const Home = () => {
     return (
         <React.Fragment>
-            <Layout>
+            <Layout currentPage="Home">
                 <Header />
                 <HomeAbout />
                 <Skills />
                 <Experience />
                 <Education />
                 <HomePortfolio />
-                <HomeContact />
+                <ContactSection />
             </Layout>
         </React.Fragment>
     )

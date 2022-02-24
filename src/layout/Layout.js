@@ -14,22 +14,22 @@ class Layout extends React.Component {
             } else {
                 $('.navigation').removeClass('nav-bg');
             }
-          });
+        });
           // progress bar
-          $('[data-progress]').each(function () {
+        $('[data-progress]').each(function () {
             $(this).css({
                 'bottom': $(this).data('progress')
             });
-          });
+        });
           
     }
     render(){
         return(
             <React.Fragment>
-                <MenuBar />
-                <main className="main-content">
-                    {this.props.children}
-                </main>
+                <MenuBar currentPage={this.props.currentPage} />
+                    <main className="main-content">
+                        {this.props.children}
+                    </main>
                 <Footer/>
             </React.Fragment>
         );

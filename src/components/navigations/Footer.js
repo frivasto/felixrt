@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './Footer.css'
-
 const MenuBar = () => {
     return (
         <footer className="bg-dark footer-section">

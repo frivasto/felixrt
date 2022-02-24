@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const Header = () => {
     return (
@@ -17,11 +18,22 @@ const Header = () => {
                     </div>
                 </div>
                 <ul className="list-unstyled ml-5 mt-5 position-relative zindex-1">
-                    <li className="mb-3"><Link className="text-white" to="https://www.linkedin.com/in/frivasto"><i className="ti-linkedin"></i></Link></li>
-                    <li className="mb-3"><Link className="text-white" to="https://instagram.com/frivasto"><i className="ti-instagram"></i></Link></li>
-                    <li className="mb-3"><Link className="text-white" to="https://twitter.com/frivasto"><i className="ti-twitter"></i></Link></li>
+                    <li className="mb-3">
+                        <a className="text-white" href="https://www.linkedin.com/in/frivasto" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={brands('linkedin')} size="xs" />
+                        </a>
+                    </li>
+                    <li className="mb-3">
+                        <a className="text-white" href="https://instagram.com/frivasto" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={brands('instagram')} size="xs" />
+                        </a>
+                    </li>
+                    <li className="mb-3">
+                        <a className="text-white" href="https://twitter.com/frivasto" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={brands('twitter')} size="xs" />
+                        </a>
+                    </li>
                 </ul>
-            
             </section>
         </React.Fragment>
     )

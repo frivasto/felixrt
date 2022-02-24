@@ -4,28 +4,30 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
-import Layout from './layout/Layout'
+import ScrollToTop from './components/util/ScrollToTop'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import Portfolio from './components/pages/Portfolio'
-import logo from './logo.svg';
 
-import './App.css';
-
-
-
+import './App.scss';
 
 function App() {
   return (
     <div>
       <Router>
-        <Routes>
-          <Route path={'/About'} element={<About/>}></Route>
-          <Route path={'/Contact'} element={<Contact/>}></Route>
-          <Route path={'/Portfolio'} element={<Portfolio/>}></Route>
-          <Route path={'/'} element={<Home/>}></Route>
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path={'/About'} element={<About/>}></Route>
+            <Route path={'/Contact'} element={<Contact/>}></Route>
+            <Route path={'/Portfolio'} element={<Portfolio/>}></Route>
+            <Route path={'/'} element={<Home/>}></Route>
+            <Route path='Instagram' component={() => { 
+                window.location.href = 'https://instagram.com/frivasto'; 
+                return null;
+            }}></Route>
+          </Routes>
+        </ScrollToTop>
       </Router>
     </div>
   );
