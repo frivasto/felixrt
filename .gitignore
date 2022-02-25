@@ -1,6 +1,6 @@
 node_modules
 .eslintcr
-.build
+build
 # Local Netlify folder
 .netlify
 
