@@ -62,14 +62,15 @@ class PortfolioShuffle extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="row shuffle-wrapper">
+                        <div className="row shuffle-wrapper portfolio-list">
                             <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/ThisSite'>
-                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-1.png"} alt="Portfolio 9" className="img-fluid rounded w-100 d-block" />
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/thisbrand.png"} alt="This Brand" className="img-fluid rounded w-100 d-block" />
                                         <div className="hover-overlay">
                                             <div className="hover-content">
-                                                <h3>This Site</h3>
+                                                <h4>This Brand</h4>
+                                                <span>Felixrt- Brand Development</span>
                                             </div>
                                         </div>
                                     </Link>
@@ -118,16 +119,6 @@ class PortfolioShuffle extends React.Component{
                             <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                 <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-5.png"} alt="Portfolio 3" className="img-fluid rounded w-100 d-block" />
-                                <div className="hover-overlay">
-                                    <div className="hover-content">
-                                    <a className="btn btn-light btn-sm" href="#!">view project</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
-                                <div className="position-relative rounded hover-wrapper">
-                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-1.png"} alt="Portfolio 4" className="img-fluid rounded w-100 d-block" />
                                 <div className="hover-overlay">
                                     <div className="hover-content">
                                     <a className="btn btn-light btn-sm" href="#!">view project</a>

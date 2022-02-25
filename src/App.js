@@ -10,7 +10,7 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import Portfolio from './components/pages/Portfolio'
-import ThisSite from './components/projects/ThisSite'
+import ThisBrand from './components/projects/ThisBrand'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route path={'/About'} element={<About/>}></Route>
             <Route path={'/Contact'} element={<Contact/>}></Route>
             <Route path={'/Portfolio'} element={<Portfolio/>}></Route>
-            <Route path={'/Portfolio/ThisSite'} element={<ThisSite/>}></Route>
+            <Route path={'/Portfolio/ThisBrand'} element={<ThisBrand/>}></Route>
             <Route path={'/'} element={<Home/>}></Route>
           </Routes>
         </ScrollToTop>
