@@ -22,10 +22,6 @@ function App() {
             <Route path={'/Contact'} element={<Contact/>}></Route>
             <Route path={'/Portfolio'} element={<Portfolio/>}></Route>
             <Route path={'/'} element={<Home/>}></Route>
-            <Route path='Instagram' component={() => { 
-                window.location.href = 'https://instagram.com/frivasto'; 
-                return null;
-            }}></Route>
           </Routes>
         </ScrollToTop>
       </Router>

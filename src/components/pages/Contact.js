@@ -15,10 +15,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </section>
-
-                <ContactSection />
-            </Layout>
-        </React.Fragment>
+            <ContactSection />
+        </Layout>
+     </React.Fragment>
 
     )
 }

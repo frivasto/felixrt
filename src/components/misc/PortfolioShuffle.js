@@ -46,7 +46,11 @@ class PortfolioShuffle extends React.Component{
                                 <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-1.png"} alt="Portfolio 9" className="img-fluid rounded w-100 d-block" />
                                 <div className="hover-overlay">
                                     <div className="hover-content">
-                                    <a className="btn btn-light btn-sm" href="#!">view project</a>
+                                        <button type="button" className="btn btn-light btn-sm" 
+                                        href="#!"
+                                        data-bs-toggle="modal" 
+                                        data-bs-target="#exampleModal"
+                                        >view project</button>
                                     </div>
                                 </div>
                             </div>
@@ -123,12 +127,12 @@ class PortfolioShuffle extends React.Component{
                         </div>
                         <div className="col-lg-4 col-6 mb-4 shuffle-item illustration" data-groups="[&quot;illustration&quot;]">
                             <div className="position-relative rounded hover-wrapper">
-                            <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-7.png"} alt="Portoflio 6" className="img-fluid rounded w-100 d-block" />
-                            <div className="hover-overlay">
-                                <div className="hover-content">
-                                <a className="btn btn-light btn-sm" href="#!">view project</a>
+                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-7.png"} alt="Portoflio 6" className="img-fluid rounded w-100 d-block" />
+                                <div className="hover-overlay">
+                                    <div className="hover-content">
+                                    <a className="btn btn-light btn-sm" href="#!">view project</a>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                         </div>
