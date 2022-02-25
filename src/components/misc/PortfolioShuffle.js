@@ -65,7 +65,7 @@ class PortfolioShuffle extends React.Component{
                         <div className="row shuffle-wrapper portfolio-list">
                             <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <Link to='/Portfolio/ThisSite'>
+                                    <Link to='/Portfolio/ThisBrand'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/thisbrand.png"} alt="This Brand" className="img-fluid rounded w-100 d-block" />
                                         <div className="hover-overlay">
                                             <div className="hover-content">
