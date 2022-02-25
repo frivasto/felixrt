@@ -1,0 +1,19 @@
+/*
+*    Portfolio
+*/
+
+.portfolio-list{
+    .hover-content{
+        h4{
+            color: #ffffff;
+            line-height: 12px;
+        }
+        span{
+            color: #ffffff;
+        }
+    }
+}
+.portfolio-img{
+    max-width: 100%;
+    max-height: 100%;
+}
