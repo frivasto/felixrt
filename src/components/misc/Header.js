@@ -8,7 +8,12 @@ class Header extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-                };
+            l3left :  "200px",
+            l3top : "40%",
+            l5left : "250px",
+            l5top : "20%",
+            l8left : "40%",
+            l8top :"15%" }
     }
 
       
@@ -21,19 +26,17 @@ class Header extends React.Component {
         var newleft = left - (((mouseX - (parseInt(obj.offsetWidth) / 2 + left)) / containerWidth) * speed) + 'px' ;
         var newtop = top - (((mouseY - (parseInt(obj.offsetHeight) / 2 + top)) / containerHeight) * speed) + 'px' ;
         
-       // console.log("im here l3left:"+newl3left+" .newl3top. "+newl3top+"");
-        
         this.setState ({ [id+"left"] : newleft });
         this.setState ({ [id+"top"] : newtop });
         
     }
 
     componentDidMount(){
-        this.setState ({ c3left : document.getElementById('l3').offsetLeft });
+        this.setState ({ c3left : document.getElementById('l3').offsetParent  });
         this.setState ({ c3top : document.getElementById('l3').offsetTop });
-        this.setState ({ c5left : document.getElementById('l5').offsetLeft });
+        this.setState ({ c5left : document.getElementById('l5').offsetParent });
         this.setState ({ c5top : document.getElementById('l5').offsetTop });
-        this.setState ({ c8left : document.getElementById('l8').offsetLeft });
+        this.setState ({ c8left : document.getElementById('l8').offsetParent  });
         this.setState ({ c8top : document.getElementById('l8').offsetTop });
     }
     
@@ -65,18 +68,18 @@ class Header extends React.Component {
 
                     
                     <div className="layer" id="l3"
-                         style={{ left: this.state.l3left, top: this.state.l3top  }}
+                         style={{ right: this.state.l3left, top: this.state.l3top  }}
 
                     >
                         <img src={ process.env.PUBLIC_URL + "images/illustrations/droid.png"} alt="bg-shape" />
                     </div>
                     <div className="layer" id="l5"
-                        style={{ left: this.state.l5left, top: this.state.l5top  }}
+                        style={{ right: this.state.l5left, top: this.state.l5top  }}
                     >
                         <img src={ process.env.PUBLIC_URL +"images/illustrations/paint.png"} alt="bg-shape" />
                     </div>
                     <div className="layer" id="l8"
-                        style={{ left: this.state.l8left, top: this.state.l8top  }}>
+                        style={{ right: this.state.l8left, top: this.state.l8top  }}>
                         <img src={ process.env.PUBLIC_URL +"images/illustrations/user.png"} alt="bg-shape" />
                     </div>
 

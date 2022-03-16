@@ -461,51 +461,6 @@ textarea.form-control {
   z-index: 1;
 }
 
-#l1 {
-  bottom: 0;
-  left: 0;
-}
-
-#l2 {
-  top: 190px;
-  left: -250px;
-}
-
-#l3 {
-  top: 200px;
-  right: 40%;
-}
-
-#l4 {
-  top: 200px;
-  right: 40%;
-}
-
-#l5 {
-  top: 250px;
-  right: 20%;
-}
-
-#l6 {
-  bottom: -20px;
-  left: 10%;
-}
-
-#l7 {
-  bottom: 100px;
-  left: 20%;
-}
-
-#l8 {
-  bottom: 40%;
-  right: 15%;
-}
-
-#l9 {
-  bottom: 100px;
-  right: -10px;
-}
-
 .layer-bg {
   position: absolute;
   bottom: 0;
