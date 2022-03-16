@@ -46,104 +46,117 @@ class PortfolioShuffle extends React.Component{
                     <div className="container">
                         <div className="row mb-5">
                             <div className="col-12">
-                                <div className="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+                                <div className="btn-group btn-group-toggle justify-content-center d-sm-flex d-inline-block" data-toggle="buttons">
                                     <label className="btn btn-sm btn-primary active">
                                         <input type="radio" name="shuffle-filter" value="all" />All
                                     </label>
                                     <label className="btn btn-sm btn-primary">
-                                        <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+                                        <input type="radio" name="shuffle-filter" value="design" />UI/UX DESIGN
                                     </label>
                                     <label className="btn btn-sm btn-primary">
                                         <input type="radio" name="shuffle-filter" value="branding" />BRANDING
                                     </label>
                                     <label className="btn btn-sm btn-primary">
-                                        <input type="radio" name="shuffle-filter" value="illustration" />ILLUSTRATION
+                                        <input type="radio" name="shuffle-filter" value="frontend" />FRONTEND DEV
+                                    </label>
+                                    <label className="btn btn-sm btn-primary">
+                                        <input type="radio" name="shuffle-filter" value="analytics" />ANALYTICS
                                     </label>
                                 </div>
                             </div>
                         </div>
                         <div className="row shuffle-wrapper portfolio-list">
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item thisbrand" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/ThisBrand'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/thisbrand.png"} alt="This Brand" className="img-fluid rounded w-100 d-block" />
                                         <div className="hover-overlay">
                                             <div className="hover-content">
-                                                <h4>This Brand</h4>
-                                                <span>Felixrt- Brand Development</span>
+                                                <h4>Felixrt-</h4>
+                                                <span>My personal Brand Development</span>
                                             </div>
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item kerubines" data-groups="[&quot;design&quot;,&quot;analytics&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-2.png"} alt="Portfolio 8" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                        <a className="btn btn-light btn-sm" href="#!">view project</a>
+                                    <Link to='/Portfolio/Kerubines'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/kerubines.png"} alt="Kerubines" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <div className="hover-content">
+                                                    <h4>Kerubines.com</h4>
+                                                    <span>UI/UX Analysis and Redesign</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item pentalogix" data-groups="[&quot;analytics&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-3.png"} alt="Portfolio 7" className="img-fluid rounded w-100 d-block" />
-                                <div className="hover-overlay">
-                                    <div className="hover-content">
-                                    <a className="btn btn-light btn-sm" href="#!">view project</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
-                                <div className="position-relative rounded hover-wrapper">
-                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-6.png"} alt="Portfolio 1" className="img-fluid rounded w-100 d-block" />
-                                <div className="hover-overlay">
-                                    <div className="hover-content">
-                                    <a className="btn btn-light btn-sm" href="#!">view project</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-                                <div className="position-relative rounded hover-wrapper">
-                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-8.png"} alt="Portfolio 2" className="img-fluid rounded w-100 d-block" />
-                                <div className="hover-overlay">
-                                    <div className="hover-content">
-                                        <a className="btn btn-light btn-sm" href="#!">view project</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
-                                <div className="position-relative rounded hover-wrapper">
-                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-5.png"} alt="Portfolio 3" className="img-fluid rounded w-100 d-block" />
-                                <div className="hover-overlay">
-                                    <div className="hover-content">
-                                    <a className="btn btn-light btn-sm" href="#!">view project</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;,&quot;branding&quot;]">
-                                <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-3.png"} alt="Portfolio 5" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                        <a className="btn btn-light btn-sm" href="#!">view project</a>
+                                    <Link to='/Portfolio/Pentalogix'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/pentalogix.png"} alt="PentaLogix" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>PentaLogix Semantics</h4>
+                                                <span>Semantic Web Redesign, Analytics Integration</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item illustration" data-groups="[&quot;illustration&quot;]">
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item mokalu" data-groups="[&quot;design&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/item-7.png"} alt="Portoflio 6" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                        <a className="btn btn-light btn-sm" href="#!">view project</a>
+                                    <Link to='/Portfolio/Mokalu'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/mokalu.png"} alt="Mokalu" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>Mokalu.com.ec</h4>
+                                                <span>UI Design &amp; FrontEnd Dev</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item epico" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
+                                <div className="position-relative rounded hover-wrapper">
+                                    <Link to='/Portfolio/Epico'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/epico.png"} alt="Epico" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>Epico</h4>
+                                                <span>Ecuadorian Entrepreneurship Center Web Redesign</span>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item emergency" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
+                                <div className="position-relative rounded hover-wrapper">
+                                    <Link to='/Portfolio/Emergency'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/emergency.png"} alt="Emergency Radar" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>Emergency Radar</h4>
+                                                <span>Web App that collects information of Geolocated incidents</span>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;frontend&quot;,&quot;branding&quot;]">
+                                <div className="position-relative rounded hover-wrapper">
+                                    <Link to='/Portfolio/ThisSite'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/thissite.png"} alt="This Site" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>This Site</h4>
+                                                <span>ReactJS Refresh</span>
+                                            </div>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +170,7 @@ class PortfolioShuffle extends React.Component{
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div className="modal-body">
-                                My body is here
+                                This Modal is not being used now.
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>

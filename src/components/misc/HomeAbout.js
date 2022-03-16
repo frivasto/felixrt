@@ -7,7 +7,7 @@ const HomeAbout = () => {
             <section className="section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-10 mx-auto text-center">
+                        <div className="col-sm-12 px-sm-3 col-lg-8 offset-lg-4">
                             <p className="font-secondary paragraph-lg text-dark">
                                 Hi, I'm Felixrt, and I'm a FrontEnd Developer and a 
                                 UX/UI Designer with passion for creating fast, pretty and intuitive user experiences.

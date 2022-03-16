@@ -19,7 +19,7 @@ class Skills extends React.Component {
     {
         return (
             <React.Fragment>
-                <section className="section">
+                <section className="section skills">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
@@ -31,7 +31,7 @@ class Skills extends React.Component {
                                         <div className="wave" data-progress="90%"></div>
                                     </div>
                                     <div className="card-footer bg-white">
-                                        <h4 className="card-title">FrontEnd Dev</h4>
+                                        <h4 className="card-title">FrontEnd Web Development</h4>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ class Skills extends React.Component {
                                         <div className="wave" data-progress="60%"></div>
                                     </div>
                                     <div className="card-footer bg-white">
-                                        <h4 className="card-title">UX Design</h4>
+                                        <h4 className="card-title">Analytics &amp; Semantic Web </h4>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ class Skills extends React.Component {
                                         <div className="wave" data-progress="80%"></div>
                                     </div>
                                     <div className="card-footer bg-white">
-                                        <h4 className="card-title">UI Design</h4>
+                                        <h4 className="card-title">User Centered Web Design (UI/UX)</h4>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ class Skills extends React.Component {
                                         <div className="wave" data-progress="70%"></div>
                                     </div>
                                     <div className="card-footer bg-white">
-                                        <h4 className="card-title">Web Design</h4>
+                                        <h4 className="card-title">Brand Development</h4>
                                     </div>
                                 </div>
                             </div>
