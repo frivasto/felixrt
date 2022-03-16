@@ -644,6 +644,8 @@ textarea.form-control {
   left: 0;
   right: 0;
   text-align: center;
+  background-color: #000000;
+  padding: 1em;
 }
 
 /* /portfolio */

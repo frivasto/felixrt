@@ -5,7 +5,7 @@ import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 const Education = () => {
     return (
         <React.Fragment>
-            <section className="section position-relative">
+            <section className="section position-relative education">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 text-center">
@@ -18,8 +18,8 @@ const Education = () => {
                             </div>
                             <div>
                                 <p className="text-dark mb-1">2022</p>
-                                <h4>Google UX Design Professional Certificate</h4>
-                                <p className="mb-0 text-light">Coursera</p>
+                                <h4>UX Design Professional Certificate</h4>
+                                <p className="mb-0 text-light">Google</p>
                             </div>
                             </div>
                         </div>
