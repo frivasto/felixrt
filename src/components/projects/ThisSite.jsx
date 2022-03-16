@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../layout/Layout'
 
 
-class Kerubines extends React.Component{
+class ThisSite extends React.Component{
     
     render(){
         return (
@@ -21,12 +21,11 @@ class Kerubines extends React.Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-7 text-center mx-auto my-5">
-                                    <h2 className="section-title">Case of Study</h2>
+                                    <h2 className="section-title">So...</h2>
                                     <p className="font-secondary paragraph-lg text-dark">
-                                        Hi, I'm Felixrt, and I'm a FrontEnd Developer and a 
-                                        UX/UI Designer with passion for creating fast, pretty and intuitive user experiences.
-                                        For the past ten years I have created Web and Mobile apps and I have been involved in 
-                                        every part of the making process.
+                                        I wanted to create the site of my brand, but I also wanted to practice my ReactJS, 
+                                        since I had not touched any react for a year, so I decided to take my brand new 
+                                        Brand and UI Design and ReactJS it a little bit.
                                     </p>
                                 </div>
                                 <div className="col-12 text-center my-5">
@@ -86,4 +85,4 @@ class Kerubines extends React.Component{
         )
     }
 }
-export default Kerubines;
+export default ThisSite;

@@ -96,57 +96,67 @@ class PortfolioShuffle extends React.Component{
                             </div>
                             <div className="col-lg-4 col-6 mb-4 shuffle-item pentalogix" data-groups="[&quot;analytics&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/pentalogix.png"} alt="PentaLogix" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                            <h4>PentaLogix Semantics</h4>
-                                            <span>Semantic Web Redesign, Analytics Integration</span>
+                                    <Link to='/Portfolio/Pentalogix'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/pentalogix.png"} alt="PentaLogix" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>PentaLogix Semantics</h4>
+                                                <span>Semantic Web Redesign, Analytics Integration</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-6 mb-4 shuffle-item mokalu" data-groups="[&quot;design&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/mokalu.png"} alt="Mokalu" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                            <h4>Mokalu.com.ec</h4>
-                                            <span>UI Design &amp; FrontEnd Dev</span>
+                                    <Link to='/Portfolio/Mokalu'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/mokalu.png"} alt="Mokalu" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>Mokalu.com.ec</h4>
+                                                <span>UI Design &amp; FrontEnd Dev</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-6 mb-4 shuffle-item epico" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/epico.png"} alt="Epico" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                            <h4>Epico</h4>
-                                            <span>Ecuadorian Entrepreneurship Center Web Redesign</span>
+                                    <Link to='/Portfolio/Epico'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/epico.png"} alt="Epico" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>Epico</h4>
+                                                <span>Ecuadorian Entrepreneurship Center Web Redesign</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-6 mb-4 shuffle-item emergency" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                <img src={ process.env.PUBLIC_URL + "/images/portfolio/emergency.png"} alt="Emergency Radar" className="img-fluid rounded w-100 d-block" />
-                                <div className="hover-overlay">
-                                        <div className="hover-content">
-                                            <h4>Emergency Radar</h4>
-                                            <span>Web App that collects information of Geolocated incidents</span>
+                                    <Link to='/Portfolio/Emergency'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/emergency.png"} alt="Emergency Radar" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>Emergency Radar</h4>
+                                                <span>Web App that collects information of Geolocated incidents</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;frontend&quot;,&quot;branding&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <img src={ process.env.PUBLIC_URL + "/images/portfolio/thissite.png"} alt="This Site" className="img-fluid rounded w-100 d-block" />
-                                    <div className="hover-overlay">
-                                        <div className="hover-content">
-                                            <h4>This Site</h4>
-                                            <span>ReactJS Refresh</span>
+                                    <Link to='/Portfolio/ThisSite'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/thissite.png"} alt="This Site" className="img-fluid rounded w-100 d-block" />
+                                        <div className="hover-overlay">
+                                            <div className="hover-content">
+                                                <h4>This Site</h4>
+                                                <span>ReactJS Refresh</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

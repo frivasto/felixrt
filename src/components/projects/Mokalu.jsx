@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../layout/Layout'
 
 
-class Kerubines extends React.Component{
+class Mokalu extends React.Component{
     
     render(){
         return (
@@ -86,4 +86,4 @@ class Kerubines extends React.Component{
         )
     }
 }
-export default Kerubines;
+export default Mokalu;

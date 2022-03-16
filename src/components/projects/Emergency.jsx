@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../layout/Layout'
 
 
-class Kerubines extends React.Component{
+class Emergency extends React.Component{
     
     render(){
         return (
@@ -12,7 +12,7 @@ class Kerubines extends React.Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 text-center">
-                                    <h1 className="text-white font-tertiary">Kerubines.com</h1>
+                                    <h1 className="text-white font-tertiary">Emergency Radar</h1>
                                 </div>
                             </div>
                         </div>
@@ -86,4 +86,4 @@ class Kerubines extends React.Component{
         )
     }
 }
-export default Kerubines;
+export default Emergency;

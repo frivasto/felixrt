@@ -473,7 +473,7 @@ textarea.form-control {
 
 #l3 {
   top: 200px;
-  left: 40%;
+  right: 40%;
 }
 
 #l4 {
@@ -482,8 +482,8 @@ textarea.form-control {
 }
 
 #l5 {
-  top: 100px;
-  right: -150px;
+  top: 250px;
+  right: 20%;
 }
 
 #l6 {
@@ -497,8 +497,8 @@ textarea.form-control {
 }
 
 #l8 {
-  bottom: 160px;
-  right: 45%;
+  bottom: 40%;
+  right: 15%;
 }
 
 #l9 {
