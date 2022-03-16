@@ -53,7 +53,7 @@ class Header extends React.Component {
     render(){
         return (
             <React.Fragment>
-                <section className="hero-area bg-primary" id="parallax" onMouseMove={(e) => this.makeItDance(e)}>
+                <section className="hero-area bg-primary" id="parallax">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-11 mx-auto">
