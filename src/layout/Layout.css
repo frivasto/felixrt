@@ -68,7 +68,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -206,7 +206,7 @@ a:hover {
 }
 .section-title {
   margin-bottom: 80px;
-  font-family: "Playfair Display", serif;
+  font-family: "Lora", serif;
 }
 
 .bg-cover {
@@ -319,7 +319,7 @@ a:hover {
 }
 
 .font-tertiary {
-  font-family: "Roboto", san-serif !important;
+  font-family: "Lora", serif !important;
 }
 
 .shadow {
@@ -423,7 +423,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Lora", serif;
+  font-family: "Roboto", san-serif;
   text-transform: uppercase;
   padding: 8px 0;
   display: inline-block;
@@ -695,7 +695,7 @@ blockquote {
   margin-bottom: 20px;
 }
 .content strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Lora", serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;

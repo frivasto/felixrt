@@ -7,26 +7,23 @@ const MenuBar = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <h5 className="text-light">Email</h5>
-                            <p className="text-white paragraph-lg font-secondary">frivasto@gmail.com</p>
+                            <h5 className="text-light font-secondary">Email</h5>
+                            <p className="text-white paragraph-lg">frivasto@gmail.com</p>
                         </div>
                         <div className="col-md-4">
-                            <h5 className="text-light">Phone</h5>
-                            <p className="text-white paragraph-lg font-secondary">+593 996435902</p>
+                            <h5 className="text-light font-secondary">Phone</h5>
+                            <p className="text-white paragraph-lg">+593 996435902</p>
                         </div>
                         <div className="col-md-4">
-                            <h5 className="text-light">Address</h5>
-                            <p className="text-white paragraph-lg font-secondary">Guayaquil City Centre, Ecuador</p>
+                            <h5 className="text-light font-secondary">Address</h5>
+                            <p className="text-white paragraph-lg">Guayaquil City Centre, Ecuador</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="border-top text-center border-dark py-5">
-                <p className="mb-0 text-light">Copyright &copy;
-                        {
-                            new Date().getFullYear()
-                        }
-                     Designed &amp; Developed by <a className="text-white-50" href="Themefisher">Felixrt-</a>
+                <p className="mb-0 text-light">No rights reserved. 
+                      Inspire Yourself as needed. Designed &amp; Developed by <strong>Felixrt-</strong>
                 </p>
             </div>
         </footer>

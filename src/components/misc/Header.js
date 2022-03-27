@@ -8,12 +8,12 @@ class Header extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            l3left :  "200px",
-            l3top : "40%",
-            l5left : "250px",
-            l5top : "20%",
-            l8left : "40%",
-            l8top :"15%" }
+            l3left :  "18%",
+            l3top : "37%",
+            l5left : "53%",
+            l5top : "37%",
+            l8left : "18%",
+            l8top :"55%" }
     }
 
       
@@ -67,18 +67,17 @@ class Header extends React.Component {
                     </div>
 
                     
-                    <div className="layer" id="l3"
+                    <div className="layer d-md-none d-lg-block" id="l3"
                          style={{ right: this.state.l3left, top: this.state.l3top  }}
-
                     >
                         <img src={ process.env.PUBLIC_URL + "images/illustrations/droid.png"} alt="bg-shape" />
                     </div>
-                    <div className="layer" id="l5"
+                    <div className="layer d-md-none d-lg-block" id="l5"
                         style={{ right: this.state.l5left, top: this.state.l5top  }}
                     >
                         <img src={ process.env.PUBLIC_URL +"images/illustrations/paint.png"} alt="bg-shape" />
                     </div>
-                    <div className="layer" id="l8"
+                    <div className="layer d-md-none d-lg-block" id="l8"
                         style={{ right: this.state.l8left, top: this.state.l8top  }}>
                         <img src={ process.env.PUBLIC_URL +"images/illustrations/user.png"} alt="bg-shape" />
                     </div>

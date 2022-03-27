@@ -35,7 +35,7 @@ class Pentalogix extends React.Component{
                                 </div>
                                 <div className="col-12 text-center my-3">
                                     <a href="https://www.pentalogix.com/t/software-products" target="_blank" rel="noreferrer">
-                                        <img className="portfolio-img shadowed" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/products.jpg'} alt="Pentalogix Products" />
+                                        <img className="portfolio-img shadowed" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/pentalogix.jpg'} alt="Pentalogix Products" />
                                     </a>
                                 </div>
                                 
@@ -47,8 +47,11 @@ class Pentalogix extends React.Component{
                                         But Agustin, the owner, wanted
                                         to transform PL to not just be a PCB Software company,
                                         but also a PCB seller. So we designed
-                                        a PCB Manufacturing product page and started tracking
-                                        how people were searching to get to our pages.
+                                        a PCB Manufacturing product page and 
+                                        several PCB products that were siblings to their
+                                        Software Product, and we founded a way 
+                                        that when people landed to view a product 
+                                        we also displayed their counterpart.
                                     </p>
                                     
                                 </div>
@@ -58,10 +61,16 @@ class Pentalogix extends React.Component{
 
                                 <div className="col-sm-12 px-sm-3 col-lg-7 offset-lg-5 my-5">
                                     <p className="font-secondary paragraph-lg text-dark">
-                                        Hi, I'm Felixrt, and I'm a FrontEnd Developer and a 
-                                        UX/UI Designer with passion for creating fast, pretty and intuitive user experiences.
-                                        For the past ten years I have created Web and Mobile apps and I have been involved in 
-                                        every part of the making process.
+
+                                   I also started tracking
+                                        how people were searching to get to our pages by integrating Google Analytics.
+                                      From there I was able to realize people were responding to the several 
+                                      keywords, so all the pages were transformed to talk about those keywords
+                                     in a meaningful way that was also informative for the users. A Video and
+                                      a Blog section was created to generate Inbound and Outbound linking and 
+                                      I also introduced the header, footer, article and several other semantic 
+                                      tags. 
+
                                     </p>
                                     
                                 </div>
@@ -70,10 +79,8 @@ class Pentalogix extends React.Component{
                                 </div>
                                 <div className="col-sm-12 px-sm-3 col-lg-7 offset-lg-5 my-5">
                                     <p className="font-secondary paragraph-lg text-dark">
-                                        Hi, I'm Felixrt, and I'm a FrontEnd Developer and a 
-                                        UX/UI Designer with passion for creating fast, pretty and intuitive user experiences.
-                                        For the past ten years I have created Web and Mobile apps and I have been involved in 
-                                        every part of the making process.
+                                    With the analytics data I was able to generate the Paid Search acquisition channel which elevated the conversion 
+                                    ]rates by more than 50% when active, besides starting several types of Email Marketing campaigns.
                                     </p>
                                     
                                 </div>
@@ -82,10 +89,9 @@ class Pentalogix extends React.Component{
                                 </div>
                                 <div className="col-7 text-center mx-auto my-5">
                                     <p className="font-secondary paragraph-lg text-dark">
-                                        Hi, I'm Felixrt, and I'm a FrontEnd Developer and a 
-                                        UX/UI Designer with passion for creating fast, pretty and intuitive user experiences.
-                                        For the past ten years I have created Web and Mobile apps and I have been involved in 
-                                        every part of the making process.
+                                    The entire approach of the page was changed to visualize a multi product 
+                                    centered e-commerce, 
+                                    and Analytics proved that right after the shift, New Users curve started to grow.
                                     </p>
                                 </div>
                             </div>

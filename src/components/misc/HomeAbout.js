@@ -4,17 +4,17 @@ import { Link } from "react-router-dom"
 const HomeAbout = () => {
     return (
         <React.Fragment>
-            <section className="section">
+            <section className="section home-about my-5 py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 px-sm-3 col-lg-8 offset-lg-4">
-                            <p className="font-secondary paragraph-lg text-dark">
-                                Hi, I'm Felixrt, and I'm a FrontEnd Developer and a 
-                                UX/UI Designer with passion for creating fast, pretty and intuitive user experiences.
-                                For the past ten years I have created Web and Mobile apps and I have been involved in 
-                                every part of the making process.
+                        <div className="col-sm-12 px-sm-3 col-lg-7 offset-lg-5">
+                            <p className="font-primary paragraph-lg text-dark">
+                            My creative core is creative storytelling, but with
+                            a <strong>&lt;strong&gt;</strong> technical background. With these skills, I believe I can 
+                            help anyone create their dream <strong>User Interface (UI)</strong> with responsibility, 
+                            equity and hard work.
                             </p>
-                            <Link to="/About" className="badge bg-danger float-right">more About me</Link>
+                            <Link to="/About" className="badge bg-danger mt-4 float-right">more About me</Link>
                         </div>
                     </div>
                 </div>
