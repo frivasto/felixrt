@@ -67,17 +67,17 @@ class Header extends React.Component {
                     </div>
 
                     
-                    <div className="layer d-md-none d-lg-block" id="l3"
+                    <div className="layer d-none d-lg-block" id="l3"
                          style={{ right: this.state.l3left, top: this.state.l3top  }}
                     >
                         <img src={ process.env.PUBLIC_URL + "images/illustrations/droid.png"} alt="bg-shape" />
                     </div>
-                    <div className="layer d-md-none d-lg-block" id="l5"
+                    <div className="layer d-none d-lg-block" id="l5"
                         style={{ right: this.state.l5left, top: this.state.l5top  }}
                     >
                         <img src={ process.env.PUBLIC_URL +"images/illustrations/paint.png"} alt="bg-shape" />
                     </div>
-                    <div className="layer d-md-none d-lg-block" id="l8"
+                    <div className="layer d-none d-lg-block" id="l8"
                         style={{ right: this.state.l8left, top: this.state.l8top  }}>
                         <img src={ process.env.PUBLIC_URL +"images/illustrations/user.png"} alt="bg-shape" />
                     </div>
