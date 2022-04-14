@@ -1,61 +1,97 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
 body {
-  line-height: 1.2;
+  line-height: 120%;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 16px;
   color: #4c4c4c;
 }
 
 p, .paragraph {
   font-weight: 400;
   color: #4c4c4c;
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 1 rem;
   font-family: "Roboto", sans-serif;
+  line-height: 140%;
 }
 p-lg, .paragraph-lg {
-  font-size: 22px;
+  font-size: 24px;
 }
 
+.lead-paragraph{
+  font-size: 20px;
+  &.display{
+    font-size: 26px;
+  }
+}
+.body2{
+  &.display{
+    font-size: 24px;
+  }
+  font-size: 18px;
+}
+.body1{
+  &.display{
+    font-size: 20px;
+  }
+  font-size: 1rem;
+}
+.body
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Roboto", sans-serif;
-  line-height: 75px;
+  font-family: "Lora", serif;
+  
 }
 
-h1, .h1 {
-  font-size: 80px;
-}
 @media (max-width: 991px) {
   h1, .h1 {
     font-size: 65px;
   }
 }
 
-h2, .h2 {
-  font-size: 60px;
-}
 @media (max-width: 991px) {
   h2, .h2 {
     font-size: 50px;
   }
 }
-
-h3, .h3 {
+h1, .h1{
   font-size: 40px;
+  &.display{
+    font-size: 80px;
+  }
+}
+h2, .h2{
+  font-size: 32px;
+  &.display{
+    font-size: 72px;
+  }
+}
+h3, .h3 {
+  font-size: 28px;
+  &.display{
+    font-size: 64px;
+  }
 }
 
 h4, .h4 {
-  font-size: 22px;
+  font-size: 24px;
+  &.display{
+    font-size: 56px;
+  }
 }
 
 h5, .h5 {
-  font-size: 18px;
+  font-size: 20px;
+  &.display{
+    font-size: 48px;
+  }
 }
 
 h6, .h6 {
-  font-size: 14px;
+  font-size: 16px;
+  &.display{
+    font-size: 40px;
+  }
 }
 
 /* Color Style */
@@ -118,17 +154,21 @@ h6, .h6 {
   color: #41228e;
 }
 .badge{
-  padding-left: 2em;
-  border-radius: 0;
+  padding: 0.5em 2em;
+  border-radius: 5em;
+  font-weight: 800;
+  font-family: "Roboto", san-serif;
 }
 a.badge, a.badge:hover{
   color: #000000;
 }
 .bg-danger, .bg-danger:hover {
-  background-color: #F16EC9 !important;
+  background-color: #FF799D !important;
+  color: #6B172E !important;
 }
 a.bg-danger:hover{
-  background-color: #F16EC9 !important;
+  background-color: #FF799D !important;
+  color: #6B172E !important;
 }
 body {
   background-color: #fff;

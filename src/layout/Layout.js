@@ -3,7 +3,7 @@ import $ from 'jquery'
 import MenuBar from '../components/navigations/MenuBar'
 import Footer from '../components/navigations/Footer'
 
-import './Layout.css'
+import './Layout.scss'
 
 class Layout extends React.Component {
     componentDidMount(){

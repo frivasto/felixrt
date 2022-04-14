@@ -66,7 +66,7 @@ class PortfolioShuffle extends React.Component{
                             </div>
                         </div>
                         <div className="row shuffle-wrapper portfolio-list">
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item thisbrand" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
+                           {/*  <div className="col-lg-4 col-6 mb-4 shuffle-item thisbrand" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/ThisBrand'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/thisbrand.png"} alt="This Brand" className="img-fluid rounded w-100 d-block" />
@@ -78,16 +78,16 @@ class PortfolioShuffle extends React.Component{
                                         </div>
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-lg-4 col-6 mb-4 shuffle-item kerubines" data-groups="[&quot;design&quot;,&quot;analytics&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
-                                    <Link to='/Portfolio/Kerubines'>
-                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/kerubines.png"} alt="Kerubines" className="img-fluid rounded w-100 d-block" />
+                                    <Link to='/Portfolio/Dalig'>
+                                        <img src={ process.env.PUBLIC_URL + "/images/portfolio/dalig.png"} alt="Dalig" className="img-fluid rounded w-100 d-block" />
                                         <div className="hover-overlay">
                                             <div className="hover-content">
                                                 <div className="hover-content">
-                                                    <h4>Kerubines.com</h4>
-                                                    <span>UI/UX Analysis and Redesign</span>
+                                                    <h4>DALIG</h4>
+                                                    <span>Fitness Mobile App UI/UX Design</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@ class PortfolioShuffle extends React.Component{
                                     </Link>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item mokalu" data-groups="[&quot;design&quot;,&quot;frontend&quot;]">
+                            {/* <div className="col-lg-4 col-6 mb-4 shuffle-item mokalu" data-groups="[&quot;design&quot;,&quot;frontend&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/Mokalu'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/mokalu.png"} alt="Mokalu" className="img-fluid rounded w-100 d-block" />
@@ -119,8 +119,8 @@ class PortfolioShuffle extends React.Component{
                                         </div>
                                     </Link>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item epico" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
+                            </div> */}
+                           {/*  <div className="col-lg-4 col-6 mb-4 shuffle-item epico" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/Epico'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/epico.png"} alt="Epico" className="img-fluid rounded w-100 d-block" />
@@ -132,8 +132,8 @@ class PortfolioShuffle extends React.Component{
                                         </div>
                                     </Link>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item emergency" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
+                            </div> */}
+                           {/*  <div className="col-lg-4 col-6 mb-4 shuffle-item emergency" data-groups="[&quot;frontend&quot;,&quot;design&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/Emergency'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/emergency.png"} alt="Emergency Radar" className="img-fluid rounded w-100 d-block" />
@@ -145,8 +145,8 @@ class PortfolioShuffle extends React.Component{
                                         </div>
                                     </Link>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;frontend&quot;,&quot;branding&quot;]">
+                            </div> */}
+                           {/*  <div className="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;frontend&quot;,&quot;branding&quot;]">
                                 <div className="position-relative rounded hover-wrapper">
                                     <Link to='/Portfolio/ThisSite'>
                                         <img src={ process.env.PUBLIC_URL + "/images/portfolio/thissite.png"} alt="This Site" className="img-fluid rounded w-100 d-block" />
@@ -158,7 +158,7 @@ class PortfolioShuffle extends React.Component{
                                         </div>
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
