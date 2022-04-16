@@ -35,9 +35,9 @@ const HomePortfolio = () => {
                                     </Link>
                                     <h6 className="mb-3 text-left tagline px-1 px-md-2">UI/UX DESIGN  · MOBILE<br/>BRAND DEVELOPMENT</h6>
                                     <p className="display lead-paragraph px-1 px-md-2 mb-5 mb-md-0">
-                                        First thing we noticed at testing was that when asked to upload their event score 
-                                        80% of athletes tried to enter to the Event by clicking on the description, 
-                                        whereas in the beginning they had to click on the word more to get into the Event
+                                        DALIG is a mobile app that allows athletes to create and participate in competitions, 
+                                        then they can upload their scores; they will have LeaderBoards and a 
+                                        global Rank, depending on how they do in the competitions. 
                                     </p>
                                 </div>
                             </div>
@@ -48,9 +48,8 @@ const HomePortfolio = () => {
                                     </Link>
                                     <h6 className="mb-3 text-left tagline px-1 px-md-2">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT    </h6>
                                     <p className="display lead-paragraph px-1 px-md-2 mb-5 mb-md-0">
-                                        First thing we noticed at testing was that when asked to upload their event score 
-                                        80% of athletes tried to enter to the Event by clicking on the description, 
-                                        whereas in the beginning they had to click on the word more to get into the Event
+                                        PentaLogix is a web shopping cart that allows customers to get customized quotes from
+                                        different Printed Circuit Boards suppliers, and then buy them. 
                                     </p>
                                 </div>
                                 <div className="col-12 col-md-6 px-2 pl-md-5 mb-5 mb-md-0">
@@ -69,13 +68,12 @@ const HomePortfolio = () => {
                                 </div>
                                 <div className="col-12 col-md-6 ">
                                     <Link to='/Portfolio/ThisBrand'>
-                                        <h2 className="mb-3 text-left px-1 px-md-2">Felixrt</h2>
+                                        <h2 className="mb-3 text-left px-1 px-md-2">Felixrt-&lt;3</h2>
                                     </Link>
                                     <h6 className="mb-3 text-left tagline px-1 px-md-2">UI/UX DESIGN  · WEB <br/>BRAND DEVELOPMENT</h6>
                                     <p className="display lead-paragraph px-1 px-md-2 mb-5 mb-md-0">
-                                        First thing we noticed at testing was that when asked to upload their event score 
-                                        80% of athletes tried to enter to the Event by clicking on the description, 
-                                        whereas in the beginning they had to click on the word more to get into the Event
+                                        This is the story of how I created this brand; I mean my personal brand, 
+                                        and the website you are reading this from.
                                     </p>
                                 </div>
                             </div>
