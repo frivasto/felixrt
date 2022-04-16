@@ -1,12 +1,10 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const Education = () => {
     return (
         <React.Fragment>
              <section className="section education odd">
-                    <div className="containe-fluid">
+                    <div className="container-fluid">
                         <div className='row'>
                             <div className="col-11 col-md-10 mx-auto">
                                 <h2>Education</h2>

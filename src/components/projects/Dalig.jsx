@@ -10,7 +10,7 @@ class Dalig extends React.Component{
                 <Layout currentPage="Portfolio">
                     <div className="portfolio dalig">
                         <section className="page-title bg-primary position-relative">
-                            <div className="container-flow">
+                            <div className="container-fluid">
                                 <div className="row">
                                     <div className="col-12 text-center">
                                         <h1 className="text-white font-tertiary">DALIG</h1>
@@ -19,7 +19,7 @@ class Dalig extends React.Component{
                             </div>
                         </section>
                         <section className="section">
-                            <div className="container-flow">
+                            <div className="container-fluid">
                                 {/* Main Description */}
                                 <div className="row main-description py-5">
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">

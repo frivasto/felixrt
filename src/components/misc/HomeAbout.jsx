@@ -5,13 +5,13 @@ const HomeAbout = () => {
     return (
         <React.Fragment>
            <section className="section home-about odd">
-                <div className="container-flow">
+                <div className="container-fluid">
                     {/* Main Description */}
                     <div className="row main-description">
                         <div className="col-10 mx-auto text-md-right text-center">
                             <h2 className="mb-3 px-3 px-md-0">The Human</h2>
                             <div className="row">
-                                <div className="col-md-5 col-12 offset-md-1 pl-md-5 pt-md-5 mt-md-5 pt-2">
+                                <div className="col-md-5 col-12 offset-md-1 pl-md-5 pt-md-5 mt-md-5 pt-2 mt-2">
                                     <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/drag.png'} 
                                             alt="About Drag"/>
                                 </div>

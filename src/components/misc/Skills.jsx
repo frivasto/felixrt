@@ -20,7 +20,7 @@ class Skills extends React.Component {
         return (
             <React.Fragment>
                 <section className="section skills">
-                    <div className="containe-fluid">
+                    <div className="container-fluid">
                         <div className='row'>
                             <div className="col-11 col-md-10 mx-auto">
                                 <h2>Skills</h2>

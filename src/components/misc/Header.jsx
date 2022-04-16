@@ -54,7 +54,7 @@ class Header extends React.Component {
         return (
             <React.Fragment>
                 <section className="hero-area bg-primary" id="parallax">
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-11 mx-auto">
                                 <h1 className="cover-text font-tertiary">

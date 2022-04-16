@@ -14,7 +14,7 @@ class Pentalogix extends React.Component{
                 <Layout currentPage="Portfolio">
                     <div className="portfolio pentalogix">
                         <section className="page-title bg-primary position-relative">
-                            <div className="container-flow">
+                            <div className="container-fluid">
                                 <div className="row">
                                     <div className="col-12 text-center">
                                         <h1 className="text-white font-tertiary">PentaLogix</h1>

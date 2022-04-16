@@ -11,7 +11,7 @@ class PortfolioShuffle extends React.Component{
         return (
             <React.Fragment> 
                 <section className="section portfolio">
-                    <div className="container-flow">
+                    <div className="container-fluid">
                         {/* ping pong photo descriptions */}
                         <div className="row ping-pong-photo">
                             <div className="col-10 offset-1">

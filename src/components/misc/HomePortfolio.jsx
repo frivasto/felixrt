@@ -6,7 +6,7 @@ const HomePortfolio = () => {
     return (
         <React.Fragment>
             <section className="section portfolio">
-                <div className="container-flow">
+                <div className="container-fluid">
                     {/* Main Description */}
                     <div className="row main-description py-5">
                         <div className="col-md-5 offset-md-1 col-sm-12 text-left">
