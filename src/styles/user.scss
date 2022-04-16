@@ -1,6 +1,9 @@
 /*
 *   Home
 */
+.tagline{
+    color: #7A7A7A;
+}
 
 .layer{
     img{
@@ -8,16 +11,44 @@
     }
 }
 .home-about{
-    margin: 12em 0 4em 0;
     .badge{
         font-size: 18px;
     }
+    .mt-md-5{
+        margin-top: 10rem !important;
+    }
 }
+
+.odd{
+    background-color: #000000;
+    color: #DBDBDB;
+    p{
+        color: #929292;
+    }
+    .text-danger{
+        color: #FF5F8A!important;
+    }
+}
+
+@media (min-width: 768px){
+    .pt-md-5{
+        padding-top: 10rem!important;
+    }
+    .pt-md-3{
+        padding-top: 5rem!important;
+    }
+    .pt-md-2{
+        padding-top: 2rem!important;
+    }
+}
+
 
 /*
 *    Portfolio
 */
-
+a, a:hover{
+    color: #000000;
+}
 .portfolio-list{
     .hover-content{
         h4{
@@ -29,11 +60,19 @@
         }
     }
 }
-.portfolio-img{
+.portfolio-img, .about-img{
     max-width: 100%;
     max-height: 100%;
 }
 .portfolio{
+    &.dalig,&.pentalogix{
+        .odd{
+            color: #000000!important;
+            p{
+                color: #000000;
+            }
+        }
+    }
     &.dalig{
         .odd{
             background-color: #FBF8EF;
@@ -77,5 +116,12 @@
 .thisbrand{
     .hover-content{
         background-color: #A4344E;
+    }
+}
+
+/*Education*/
+.education{
+    .body2{
+        line-height: 1.6;
     }
 }

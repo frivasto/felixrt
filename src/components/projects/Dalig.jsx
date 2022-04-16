@@ -144,7 +144,7 @@ class Dalig extends React.Component{
                                     <div className="col-10 mx-auto">
                                         <h2 className="mb-5">Specific User Profile</h2>
                                         <div className="row align-items-center">
-                                            <div className="col-12 col-md-4 mb-3 mb-md-0">
+                                            <div className="col-12 col-md-4 mb-3 mb-md-0 px-md-3 px-0">
                                                 <img className="portfolio-img" 
                                                      src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/laurita.png'} 
                                                      alt="Laurita" />
@@ -163,7 +163,7 @@ class Dalig extends React.Component{
                                             </div>
                                         </div>
                                         <div className="row align-items-center mt-5">
-                                            <div className="col-12 col-md-4 mb-3 mb-md-0">
+                                            <div className="col-12 col-md-4 mb-3 mb-md-0  px-md-3 px-0">
                                                 <img className="portfolio-img" 
                                                      src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/alexon.png'} 
                                                      alt="Alexon" />
