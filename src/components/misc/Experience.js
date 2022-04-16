@@ -25,7 +25,7 @@ const Experience = () => {
                         <div className="col-lg-3 col-md-4 text-center">
                             <img src="images/experience/icon-3.png" alt="icon" />
                             <p className="mb-0">Feb 2021 - Present</p>
-                            <h4>FrontEnd Developer, UX & UI Designer</h4>
+                            <h4>FrontEnd Developer, UX &amp; UI Designer</h4>
                             <h6 className="text-light">Freelancer</h6>
                         </div>
                     </div>

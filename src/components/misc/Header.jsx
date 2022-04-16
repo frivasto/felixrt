@@ -10,7 +10,7 @@ class Header extends React.Component {
         this.state = {
             l3left :  "18%",
             l3top : "37%",
-            l5left : "53%",
+            l5left : "49%",
             l5top : "37%",
             l8left : "18%",
             l8top :"55%" }
@@ -58,9 +58,9 @@ class Header extends React.Component {
                         <div className="row">
                             <div className="col-lg-11 mx-auto">
                                 <h1 className="cover-text font-tertiary">
-                                    Hi, I'm Félix<br/>
-                                    A <span className="primary">FrontEnd</span> Developer<br/>
-                                    & UX/UI <span className="secondary">Designer-</span>
+                                    Hi, this is Félix<br/>
+                                    UI/UX <span className="secondary">Designer-</span> & <br/>
+                                    <span className="primary">FrontEnd</span> Developer
                                 </h1>
                             </div>
                         </div>
