@@ -8,11 +8,11 @@ class Header extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            l3left :  "18%",
+            l3left :  "12%",
             l3top : "41%",
             l5left : "51%",
             l5top : "51.5%",
-            l8left : "18%",
+            l8left : "12%",
             l8top :"52.5%" }
     }
 
@@ -56,7 +56,7 @@ class Header extends React.Component {
                 <section className="hero-area bg-primary" id="parallax">
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-lg-11 mx-auto">
+                            <div className="col-12 col-md-10 mx-auto">
                                 <h3 className="cover-text font-primary display mb-0">
                                     Hi, I'm Félix!
                                 </h3>
