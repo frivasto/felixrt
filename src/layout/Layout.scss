@@ -353,6 +353,10 @@ a:hover {
   overflow: hidden;
 }
 
+.font-primary{
+  font-family: "Roboto", sans-serif;
+}
+
 .font-secondary {
   font-family: "Lora", serif !important;
 }
@@ -447,7 +451,7 @@ textarea.form-control {
 }
 .navigation.nav-bg {
   background-color: #000000;
-  padding: 15px 100px;
+  padding: 0 100px;
 }
 @media (max-width: 991px) {
   .navigation.nav-bg {
@@ -509,7 +513,9 @@ textarea.form-control {
 /* Main Cover */
 
 .cover-text{
-  font-size: 64px;
+  h2{
+    opacity: 81%;
+  }
   opacity: 95%;
   color: #ffffff;
 }

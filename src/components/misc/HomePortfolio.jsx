@@ -8,7 +8,7 @@ const HomePortfolio = () => {
             <section className="section portfolio">
                 <div className="container-fluid">
                     {/* Main Description */}
-                    <div className="row main-description py-5">
+                    <div className="row main-description pb-5">
                         <div className="col-md-5 offset-md-1 col-sm-12 text-left">
                             <h2 className="mb-2 px-3 px-md-0">The Projects</h2>
                             <p className="px-3 px-md-0">
@@ -82,7 +82,7 @@ const HomePortfolio = () => {
                     {/* See More */}
                     <div className="row text-right mt-3">
                         <div className="col-10 px-2 mx-auto">
-                            <Link to="/Portfolio" className="badge float-right"><h3 className='text-danger'>See more →</h3></Link>
+                            <Link to="/Portfolio" className="badge float-right"><h4 className='text-danger'>All projects →</h4></Link>
                         </div>
                     </div>
                 </div>

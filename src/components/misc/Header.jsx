@@ -9,11 +9,11 @@ class Header extends React.Component {
         super(props);
         this.state = {
             l3left :  "18%",
-            l3top : "37%",
-            l5left : "49%",
-            l5top : "37%",
+            l3top : "41%",
+            l5left : "51%",
+            l5top : "51.5%",
             l8left : "18%",
-            l8top :"55%" }
+            l8top :"52.5%" }
     }
 
       
@@ -57,11 +57,13 @@ class Header extends React.Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-11 mx-auto">
-                                <h1 className="cover-text font-tertiary">
-                                    Hi, this is Félix<br/>
-                                    UI/UX <span className="secondary">Designer-</span> & <br/>
-                                    <span className="primary">FrontEnd</span> Developer
-                                </h1>
+                                <h3 className="cover-text font-primary display mb-0">
+                                    Hi, I'm Félix!
+                                </h3>
+                                <h6 className="cover-text font-primary display">UI/UX <span className="secondary">designer-</span> &amp; <br/>
+                                    <span className="primary">Frontend</span> developer
+                                </h6>
+                                
                             </div>
                         </div>
                     </div>

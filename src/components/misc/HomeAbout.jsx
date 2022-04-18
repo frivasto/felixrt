@@ -51,7 +51,7 @@ const HomeAbout = () => {
                      {/* See More */}
                      <div className="row text-right mt-5">
                         <div className="col-10 px-2 mx-auto">
-                            <Link to="/About" className="badge float-right"><h3 className='text-danger'>See more →</h3></Link>
+                            <Link to="/About" className="badge float-right"><h4 className='text-success'>See more →</h4></Link>
                         </div>
                     </div>
                 </div>
