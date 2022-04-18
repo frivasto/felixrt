@@ -92,7 +92,7 @@ class Skills extends React.Component {
                                             <li>Productivity</li>
                                             <li>Organized</li>
                                             <li>Creativity</li>
-                                            <li>Work Ethic.</li>
+                                            <li>Work Ethic</li>
                                             <li>Bilingual(EN,ES)</li>
                                             <li>Agile </li>
                                         </ul>

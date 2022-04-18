@@ -12,10 +12,10 @@ const HomePortfolio = () => {
                         <div className="col-md-5 offset-md-1 col-sm-12 text-left">
                             <h2 className="mb-2 px-3 px-md-0">The Projects</h2>
                             <p className="px-3 px-md-0">
-                                As a Designer, I use my passion for Visual Arts and Storytelling as a vehicle to create. 
-                                I also have a strong technical background, as a FrontEnd 
-                                Developer. I believe this combination helps me stay grounded when doing pretty things for the 
-                                Web or Mobiles. Here are some the projects I enjoyed working on the most...
+                                As a designer, I create based on my passion for visual arts and storytelling. 
+                                I also have a strong technical background, as a frontend 
+                                developer. I believe this combination helps me stay grounded when designing interfaces for humans.
+                                Here are some the projects I enjoyed working on the most...
                             </p>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ const HomePortfolio = () => {
                             <div className="row align-items-center">
                                 <div className="col-12 col-md-6 px-2 pr-md-5 mb-5 mb-md-0">
                                     <Link to='/Portfolio/Dalig'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig.png'} 
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig.jpg'} 
                                                 alt="Pentalogix Analytics"/>
                                     </Link>
                                 </div>
@@ -36,8 +36,8 @@ const HomePortfolio = () => {
                                     <h6 className="mb-3 text-left tagline px-1 px-md-2">UI/UX DESIGN  · MOBILE<br/>BRAND DEVELOPMENT</h6>
                                     <p className="display lead-paragraph px-1 px-md-2 mb-5 mb-md-0">
                                         DALIG is a mobile app that allows athletes to create and participate in competitions, 
-                                        then they can upload their scores; they will have LeaderBoards and a 
-                                        global Rank, depending on how they do in the competitions. 
+                                        then they can upload their scores; they will have leaderboards and a 
+                                        global rank, depending on how they do in the competitions. 
                                     </p>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ const HomePortfolio = () => {
                             <div className="row align-items-center mt-5">
                                 <div className="col-12 col-md-6 px-2 pr-md-5 mb-5 mb-md-0">
                                     <Link to='/Portfolio/ThisBrand'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/felixrt.png'} 
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/felixrt.jpg'} 
                                             alt="Pentalogix Analytics"/>
                                     </Link>
                                 </div>

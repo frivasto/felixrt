@@ -37,7 +37,7 @@ const About = () => {
                             </div>
                             <div className="col-md-4 text-center drag-lg-top">
                                 <div className="shadow-down mb-4">
-                                <img src={ process.env.PUBLIC_URL + "/images/about/felixnj3.jpg"}
+                                <img src={ process.env.PUBLIC_URL + "/images/about/felixnj4.jpg"}
                                      alt="author" 
                                      className="img-fluid w-100 rounded-lg border-thick border-white" />
                                 </div>

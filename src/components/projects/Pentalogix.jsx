@@ -39,7 +39,7 @@ class Pentalogix extends React.Component{
                                  {/* Centred picture */}
                                 <div className="row py-5 centred-image odd">
                                     <div className="col-md-8 col-sm-12 mx-auto text-center">
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/pentalogix.png'} alt="Pentalogix Main site" />
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/pentalogix.jpg'} alt="Pentalogix Main site" />
                                     </div>
                                 </div>
                                  {/* Centred Important Description */}
@@ -157,10 +157,10 @@ class Pentalogix extends React.Component{
                                         <h5 className="display mb-5">High Fidelity Screens</h5>
                                         <div className="row">
                                             <div className="col-12 col-md-6 mx-0 px-0">
-                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote3.png'} alt="High Fielity 1"/>
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote3.jpg'} alt="High Fielity 1"/>
                                             </div>
                                             <div className="col-12 col-md-6 mx-0 px-0">
-                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote4.png'} alt="High Fielity 2"/>
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote4.jpg'} alt="High Fielity 2"/>
                                             </div>
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@ class Pentalogix extends React.Component{
                                         <div className="row align-items-center">
                                             <div className="col-12 col-md-6 px-md-2 mb-5 mb-md-0">
                                             <img className="portfolio-img" 
-                                                 src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/analytics.png'} 
+                                                 src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/analytics.jpg'} 
                                                  alt="Pentalogix Analytics"/>
                                             </div>
                                             <div className="col-12 col-md-6 ">
@@ -202,7 +202,7 @@ class Pentalogix extends React.Component{
                                             </div>
                                             <div className="col-12 col-md-6 px-2 px-md-5 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
-                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/analytics3.png'} 
+                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/analytics3.jpg'} 
                                                      alt="PentaLogix Analytics results"/>
                                             </div>
                                         </div>

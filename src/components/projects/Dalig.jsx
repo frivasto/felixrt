@@ -55,7 +55,7 @@ class Dalig extends React.Component{
                                  {/* Full width picture */}
                                  <div className="row py-5 full-width-picture">
                                     <div className="col-12">
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/competition.png'} alt="Competition" />
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/competition2.jpg'} alt="Competition" />
                                     </div>
                                 </div>
                                  {/* Triple Text */}
@@ -227,14 +227,14 @@ class Dalig extends React.Component{
                                  <div className="row py-5 centred-image ">
                                     <div className="col-8 mx-auto text-center">
                                         <h6 className="mb-5 display">Wireframes</h6>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/wireframes.png'} alt="Wireframes" />
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/wireframes.jpg'} alt="Wireframes" />
                                     </div>
                                 </div>
                                 {/* Centred picture */}
                                 <div className="row py-5 centred-image ">
                                     <div className="col-8 mx-auto text-center">
                                         <h6 className="mb-5 display">Prototype Screens</h6>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/lowfi.png'} alt="Low Fidelity Design" />
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/lowfi.jpg'} alt="Low Fidelity Design" />
                                     </div>
                                 </div>
 
@@ -246,7 +246,7 @@ class Dalig extends React.Component{
                                         <div className="row align-items-center">
                                             <div className="col-12 col-md-6 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
-                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.png'} 
+                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.jpg'} 
                                                      alt="Moodboard" />
                                             </div>
                                             <div className="col-12 col-md-6 ">
@@ -314,7 +314,7 @@ class Dalig extends React.Component{
                                             </div>
                                             <div className="col-12 col-md-6 px-2 px-md-5 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
-                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes2.png'} 
+                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes2.jpg'} 
                                                      alt="Changes 2" />
                                             </div>
                                         </div>
