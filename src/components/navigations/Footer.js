@@ -15,8 +15,8 @@ const MenuBar = () => {
                             <p className="text-white paragraph-lg">+593 996435902</p>
                         </div>
                         <div className="col-md-4">
-                            <h5 className="text-light font-secondary">Address</h5>
-                            <p className="text-white paragraph-lg">Guayaquil City Centre, Ecuador</p>
+                            <h5 className="text-light font-secondary">Current Address</h5>
+                            <p className="text-white paragraph-lg">Remote (GMT-5)</p>
                         </div>
                     </div>
                 </div>
