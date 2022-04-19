@@ -16,7 +16,7 @@ class PortfolioShuffle extends React.Component{
                             <div className="row align-items-center">
                                 <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
                                     <Link to='/Portfolio/Dalig'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig.jpg'} 
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig2.jpg'} 
                                                 alt="Pentalogix Analytics"/>
                                     </Link>
                                 </div>
@@ -32,25 +32,7 @@ class PortfolioShuffle extends React.Component{
                                     </p>
                                 </div>
                             </div>
-                            <div className="row align-items-center mt-5">
-                                <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
-                                        <Link to='/Portfolio/Pentalogix'>
-                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/pentalogix.png'} 
-                                                    alt="Pentalogix Analytics"/>
-                                        </Link>
-                                </div>
-                                <div className="col-12 col-md-6 px-0 pl-md-5">
-                                    <Link to='/Portfolio/Pentalogix'>
-                                        <h2 className="mb-3 text-left">PentaLogix</h2>
-                                    </Link>
-                                    <h6 className="mb-3 text-left tagline">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT    </h6>
-                                    <p className="lead-paragraph mb-5 mb-md-0">
-                                        PentaLogix is a web shopping cart that allows customers to get customized quotes from
-                                        different Printed Circuit Boards suppliers, and then buy them. 
-                                    </p>
-                                </div>
-                                
-                            </div>
+                           
                             <div className="row align-items-center mt-5">
                                 <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
                                     <Link to='/Portfolio/ThisBrand'>
@@ -68,6 +50,25 @@ class PortfolioShuffle extends React.Component{
                                         and the website you are reading this from.
                                     </p>
                                 </div>
+                            </div>
+                            <div className="row align-items-center mt-5">
+                                <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                    <Link to='/Portfolio/Pentalogix'>
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/pentalogix.png'} 
+                                                alt="Pentalogix Analytics"/>
+                                    </Link>
+                                </div>
+                                <div className="col-12 col-md-6 px-0 pl-md-5">
+                                    <Link to='/Portfolio/Pentalogix'>
+                                        <h2 className="mb-3 text-left">PentaLogix</h2>
+                                    </Link>
+                                    <h6 className="mb-3 text-left tagline">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT    </h6>
+                                    <p className="lead-paragraph mb-5 mb-md-0">
+                                        PentaLogix is a web shopping cart that allows customers to get customized quotes from
+                                        different Printed Circuit Boards suppliers, and then buy them. 
+                                    </p>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>

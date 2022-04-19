@@ -60,7 +60,7 @@ class Dalig extends React.Component{
                                 </div>
                                  {/* Triple Text */}
                                  <div className="row triple-text py-5">
-                                    <div className="col-10 mx-auto">
+                                    <div className="col-11 col-md-10 mx-auto">
                                         <h2 className="mb-2">Problematics</h2>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
@@ -116,7 +116,7 @@ class Dalig extends React.Component{
                                 </div>
                                 {/* Triple Text */}
                                 <div className="row triple-text py-5">
-                                    <div className="col-10 mx-auto">
+                                    <div className="col-11 col-md-10 mx-auto">
                                         <h2 className="mb-2">General User Profile</h2>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
@@ -323,7 +323,7 @@ class Dalig extends React.Component{
 
                                 {/* Triple Text */}
                                 <div className="row triple-text py-5">
-                                    <div className="col-10 mx-auto">
+                                    <div className="col-11 col-md-10 mx-auto">
                                         <h1 className="display text-center">Final Flow</h1>
                                         <h2 className="mb-2">Goals</h2>
                                         <div className="row">

@@ -23,7 +23,7 @@ class Pentalogix extends React.Component{
                             </div>
                         </section>
                         <section className="section">
-                            <div className="container-flow">
+                            <div className="container-fluid">
                                  {/* Main Description */}
                                  <div className="row main-description py-5">
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">
@@ -64,7 +64,7 @@ class Pentalogix extends React.Component{
 
                                  {/* Triple Text */}
                                  <div className="row triple-text py-5">
-                                    <div className="col-10 mx-auto">
+                                    <div className="col-11 col-md-10 mx-auto">
                                         <h2 className="mb-2">Problematics</h2>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
