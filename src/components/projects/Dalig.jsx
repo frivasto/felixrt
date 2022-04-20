@@ -293,7 +293,7 @@ class Dalig extends React.Component{
 
 
                                 {/* ping pong photo descriptions */}
-                                <div className="row ping-pong-photo py-5 my-5 odd">
+                                <div className="row ping-pong-photo py-5 my-5">
                                     <div className="col-11 col-md-10 mx-auto">
                                         <div className="row">
                                             <h6 className="mb-4 display">Visual design process</h6>
@@ -346,9 +346,9 @@ class Dalig extends React.Component{
                                 </div>
 
                                  {/* Centred picture */}
-                                 <div className="row py-5 centred-image ">
+                                 <div className="row py-5 centred-image odd">
                                     <div className="col-8 mx-auto text-center">
-                                        <h6 className="mb-5 display">Wireframes</h6>
+                                        <h4 className="mb-5">Wireframes</h4>
                                         <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/wireframes.jpg'} alt="Low Fidelity Design" />
                                     </div>
                                 </div>
