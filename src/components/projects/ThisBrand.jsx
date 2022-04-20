@@ -41,7 +41,7 @@ class ThisBrand extends React.Component{
                             {/* Triple Text */}
                             <div className="row triple-text py-5 mt-3">
                                 <div className="col-11 col-md-10 mx-auto">
-                                    <h2 className="mb-2">Problematics</h2>
+                                    <h2 className="mb-2">The Problems</h2>
                                     <div className="row">
                                         <div className="col-md-4 col-sm-12">
                                             <p className="pr-md-2 pr-sm-0">
@@ -68,7 +68,7 @@ class ThisBrand extends React.Component{
                              {/* Centred Important Description */}
                              <div className="row centred-description-important py-4">
                                 <div className="col-md-9 col-sm-12 mx-auto text-left">
-                                    <h2 className="mb-3 text-center">Solution</h2>
+                                    <h2 className="mb-3 text-center">The Solution</h2>
                                     <p className="lead-paragraph display px-3 px-md-0">
                                         So I decided to rebrand my career, I part time studied Graphic Design 
                                         and User Interface Design and portray that journey here on Felixrt.com. 
@@ -98,21 +98,11 @@ class ThisBrand extends React.Component{
                             {/* Columns lists */}
                             <div className='row pb-5 mb-5'>
                                 <div className="col-11 col-md-10 mx-auto">
-                                    <div className='row'>  
-                                        <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                            <h4>Main Keyword</h4>
-                                        </div>
-                                        <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                            <h4>Iterations</h4>
-                                        </div>
-                                        <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                            <h4>Final Iterations</h4>
-                                        </div>
-                                    </div>
-                                    <div className="row align-items-end">
+                                   
+                                    <div className="row">
                                         
                                         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                            
+                                            <h4>Main Keyword</h4>
                                             <ul className="pl-0">
                                                 <li>Respect</li>
                                                 <li>Responsability</li>
@@ -129,7 +119,7 @@ class ThisBrand extends React.Component{
                                             </ul>
                                         </div>
                                         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                            
+                                            <h4>Iterations</h4>
                                             <ul className="pl-0">
                                                 <li>Resthe</li>
                                                 <li>Resivo</li>
@@ -146,11 +136,11 @@ class ThisBrand extends React.Component{
                                             </ul>
                                         </div>
                                         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                            
+                                            <h4>Final Iterations</h4>
                                             <ul className="pl-0">
                                                 <li>Resthe</li>
                                                 <li>InDi Hawk</li>
-                                                <li>Felixrt</li>
+                                                <li><strong>Felixrt</strong></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -279,7 +269,7 @@ class ThisBrand extends React.Component{
                                 <div className="col-md-9 col-sm-12 mx-auto text-left">
                                     <h2 className="mb-3 text-center">Conclusions and follow up</h2>
                                     <p className="lead-paragraph display px-3 px-md-0">
-                                        So this site represents the current me as of 2022 first quarter of 2022. 
+                                        So this represents the current me as of the first quarter of 2022. 
                                         Now I would love to hear from you. Send me an email if you are interested 
                                         in having a conversation about user interfaces, apps, spacetime, crossfit, 
                                         drag or even better, your thoughts on this design. Hope you are having a great one!

@@ -30,7 +30,7 @@ class Dalig extends React.Component{
                                             idea of crating this app that make it easier for atheletes to keep track 
                                             of their scores; and eventually we ended up creating a fully commercial 
                                             fitness application that welcomes athletes of different Sports and have 
-                                            global and specific Leaderboards and scores. 
+                                            global and specific leaderboards and scores. 
                                         </p>
                                     </div>
                                 </div>
@@ -45,8 +45,8 @@ class Dalig extends React.Component{
                                     <div className="col-md-9 col-sm-12 mx-auto text-left">
                                         <h2 className="mb-3 text-center">Description</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
-                                            DaLig allows users to create and participate in Competitions of an specific Sport, 
-                                            then Athletes of that Sport will have Scores, LeaderBoards and a Global Rank depending 
+                                            DALIG allows users to create and participate in competitions of an specific Sport, 
+                                            then athletes of that Sport will have scores, leaderboards and a global Rank depending 
                                             on how well they do in the competitions. Athletes will be notified when their Rank is surpased, 
                                             or how well they need to do next time to surpase their peers.
                                         </p>
@@ -204,13 +204,13 @@ class Dalig extends React.Component{
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
                                                     Events could have scores, scores could be validated 
-                                                    by judges. Scores are used to feed a LeaderBoard.
+                                                    by judges. scores are used to feed a leaderboard.
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
-                                                    Athletes can join Teams, and Teams could 
-                                                    have ranks by sum(Athletes).
+                                                    Athletes can join teams, and teams could 
+                                                    have ranks by sum(athletes).
                                                 </p>
                                             </div>
                                         </div>
@@ -244,7 +244,7 @@ class Dalig extends React.Component{
                                         <h4 className="mb-2 display">High Fidelity Design Process</h4>
                                         <h6 className="mb-5 display">Moodboard</h6>
                                         <div className="row align-items-center">
-                                            <div className="col-12 col-md-6 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5">
                                                 <img className="portfolio-img" 
                                                      src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.jpg'} 
                                                      alt="Moodboard" />
