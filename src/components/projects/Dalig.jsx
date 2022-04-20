@@ -25,12 +25,13 @@ class Dalig extends React.Component{
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">
                                         <h2 className="mb-2 px-3 px-md-0">Case of Study</h2>
                                         <p className="px-3 px-md-0">
-                                            DALIG is an app I designed for fun thanks to my CrossFit coach Verly, 
-                                            he was constantly creating competitions within his box and we had the 
-                                            idea of crating this app that make it easier for atheletes to keep track 
-                                            of their scores; and eventually we ended up creating a fully commercial 
-                                            fitness application that welcomes athletes of different Sports and have 
-                                            global and specific leaderboards and scores. 
+                                            DALIG is an app I designed for fun thanks to my CrossFit coach. 
+                                            He was constantly creating competitions within his box and so we had this 
+                                            idea of creating a mobile app that made it easier for atheletes to keep track 
+                                            of their scores; and eventually I ended up creating a fully commercial 
+                                            fitness application that welcomes athletes of different sports and have 
+                                            global and specific leaderboards using gamification concepts to
+                                            symbiotically create a fitter, better world. 
                                         </p>
                                     </div>
                                 </div>
@@ -40,28 +41,10 @@ class Dalig extends React.Component{
                                         <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/dalig-three-screens.png'} alt="Dalig Three Screens" />
                                     </div>
                                 </div>
-                                 {/* Centred Important Description */}
-                                 <div className="row centred-description-important py-5">
-                                    <div className="col-md-9 col-sm-12 mx-auto text-left">
-                                        <h2 className="mb-3 text-center">Description</h2>
-                                        <p className="lead-paragraph display px-3 px-md-0">
-                                            DALIG allows users to create and participate in competitions of an specific Sport, 
-                                            then athletes of that Sport will have scores, leaderboards and a global Rank depending 
-                                            on how well they do in the competitions. Athletes will be notified when their Rank is surpased, 
-                                            or how well they need to do next time to surpase their peers.
-                                        </p>
-                                    </div>
-                                </div>
-                                 {/* Full width picture */}
-                                 <div className="row py-5 full-width-picture">
-                                    <div className="col-12">
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/competition2.jpg'} alt="Competition" />
-                                    </div>
-                                </div>
-                                 {/* Triple Text */}
-                                 <div className="row triple-text py-5">
+                                {/* Triple Text */}
+                                <div className="row triple-text py-5">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <h2 className="mb-2">Problematics</h2>
+                                        <h2 className="mb-2">The Problems</h2>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pr-md-2 pr-sm-0">
@@ -88,15 +71,36 @@ class Dalig extends React.Component{
                                  {/* Centred Important Description */}
                                  <div className="row centred-description-important py-5">
                                     <div className="col-md-9 col-sm-12 mx-auto text-left">
-                                        <h2 className="mb-3 text-center">Naming process</h2>
+                                        <h2 className="mb-3 text-center">The Solution</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
-                                            The idea is to portray a short of The number one league, 
-                                            so it could be styled with a modern fonetica Da Lig, and 
-                                            also intentionally could be confused with Dali the paintor 
-                                            and get a sophisticated connotation.
+                                            DALIG is a mobile application that allows athletes to create and participate in competitions of an specific sport, 
+                                            then athletes will have scores, leaderboards and a global rank depending 
+                                            on how well they do in the competitions. Athletes will be notified when their rank is surpased, 
+                                            or how well they need to do next time to surpase their peers.
                                         </p>
                                     </div>
                                 </div>
+                                
+                                {/* Full width picture */}
+                                <div className="row py-5 full-width-picture">
+                                    <div className="col-12">
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/competition2.jpg'} alt="Competition" />
+                                    </div>
+                                </div>
+
+                                {/* Centred Important Description */}
+                                <div className="row centred-description-important py-5">
+                                    <div className="col-md-9 col-sm-12 mx-auto text-left">
+                                        <h2 className="mb-3 text-center">Naming process</h2>
+                                        <p className="lead-paragraph display px-3 px-md-0">
+                                            The idea is to portray a short of "The number one league", 
+                                            then to be styled with a modern fonetica Da Lig, and intentionally 
+                                            to be confused with the surrealist paintor 
+                                            Dali, for it to get a sophisticated artsy connotation.
+                                        </p>
+                                    </div>
+                                </div>
+
                                 {/* Double Text */}
                                 <div className="row doule-text py-5">
                                     <div className="col-md-6 col-sm-12 mx-auto">
@@ -117,23 +121,25 @@ class Dalig extends React.Component{
                                 {/* Triple Text */}
                                 <div className="row triple-text py-5">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <h2 className="mb-2">General User Profile</h2>
+                                        <h2 className="mb-2">General user profile</h2>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pr-md-2 pr-sm-0">
-                                                    On a political sense, they could be flexible 
-                                                    but with a strong comunity based purpose. 
+                                                    They are socially oriented.
+                                                   
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="px-md-2 px-sm-0">
-                                                    On a financial sense, they could be work centred with the 
-                                                    rest of their time wanting to maintain an phisical activity. 
+                                                    On the political side, they are flexible 
+                                                    but with a strong comunity based sense of purpose. 
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pl-md-2 ps-sm-0">
-                                                    They must be social oriented.
+                                                    On the financial side, they are work centered with the 
+                                                    rest of their time wanting to engage in physical and healthy activities. 
+                                                    
                                                 </p>
                                             </div>
                                         </div>
@@ -142,7 +148,7 @@ class Dalig extends React.Component{
                                 {/* small photo descriptions */}
                                 <div className="row small-photo-description py-5">
                                     <div className="col-10 mx-auto">
-                                        <h2 className="mb-5">Specific User Profile</h2>
+                                        <h2 className="mb-5">Specific user profile</h2>
                                         <div className="row align-items-center">
                                             <div className="col-12 col-md-4 mb-3 mb-md-0 px-md-3 px-0">
                                                 <img className="portfolio-img" 
@@ -155,7 +161,7 @@ class Dalig extends React.Component{
                                                 <p className="display body-2">
                                                     She believes women can stand on their own no matter what. 
                                                     She spends 6 days a week managing her restaurant which gives 
-                                                    work to several people including her daughter's family. 
+                                                    work to several people including her daughter. 
                                                     She has great friends from her day to day work and cross 
                                                     functional gym. She enjoys being an active person and works 
                                                     hard to look better and stay healthy.
@@ -173,7 +179,7 @@ class Dalig extends React.Component{
                                                 <h3>Agricultural Engineer</h3>
                                                 <p className="display body-2">
                                                     He believes life is about moving. He spends most of his day working in the lands, 
-                                                    making sure harvests go as desired. He doesn't have much time, but when he has some, 
+                                                    making sure harvests go as desired. He doesn't have much time, but when he does, 
                                                     he likes being an active member of his CrossFit community, participating in most 
                                                     of the things they have to offer. He likes to look good and meet people since 
                                                     he is from another city.
@@ -184,7 +190,7 @@ class Dalig extends React.Component{
                                 </div>
                                 {/* four texts important */}
                                 <div className="row fourthe-text-important py-5">
-                                    <div className="col-10 mx-auto">
+                                    <div className="col-11 col-md-10 mx-auto">
                                         <h6 className="mb-4 display">Main Functionalities</h6>
                                         <div className="row align-items-center">
                                             <div className="col-12 col-md-6">
