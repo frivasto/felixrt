@@ -73,10 +73,15 @@ class Dalig extends React.Component{
                                     <div className="col-md-9 col-sm-12 mx-auto text-left">
                                         <h2 className="mb-3 text-center">The Solution</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
-                                            DALIG is a mobile application that allows athletes to create and participate in competitions of an specific sport, 
-                                            then athletes will have scores, leaderboards and a global rank depending 
-                                            on how well they do in the competitions. Athletes will be notified when their rank is surpased, 
-                                            or how well they need to do next time to surpase their peers.
+                                            DALIG is a mobile application that allows athletes to create and participate 
+                                            in competitions of an specific sport. 
+                                            They will be able to upload their scores and have a record of their progress. 
+                                            But having to upload scores seems like work to me, so I decided
+                                            to add some gamification concepts like
+                                            having leaderboards and global ranks depending 
+                                            on how they do in the competitions; they
+                                            will be notified when their rank is surpased, 
+                                            or how better they need to do next time to surpase their buddy.
                                         </p>
                                     </div>
                                 </div>
@@ -118,6 +123,60 @@ class Dalig extends React.Component{
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* ping pong photo descriptions */}
+                                <div className="row ping-pong-photo py-5 my-5 odd">
+                                    <div className="col-11 col-md-10 mx-auto">
+                                        <div className="row">
+                                            <h6 className="mb-4 display">Similar apps</h6>
+                                        </div>
+                                        <div className="row align-items-center">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/duolingo.jpg'} 
+                                                        alt="Moodboard"/>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5">
+                                                <h2 className="mb-3 text-left">Duolingo</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    After the gamification concept was added I inmediately thought
+                                                    of Duolingo, and how Luis von Ahn transformed learning a language into 
+                                                    a worlwide game.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="row align-items-center mt-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                                <h2 className="mb-3 text-left">CrossFit Games</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    Second app was the main inspiration of this idea,
+                                                    and it is how CrossFit handles their competitions
+                                                    like CrossFit Games and the CrossFit Open.
+                                                </p>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/crossfitgames.jpg'} 
+                                                        alt="Typography explorations"/>
+                                            </div>
+                                        </div>
+                                        <div className="row align-items-center mt-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/pukkiebook.jpg'} 
+                                                    alt="Colors"/>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5 ">
+                                                
+                                                <h2 className="mb-3 text-left">Pukiebook</h2>
+                                                
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    This woul be DALIG's direct competition, since it is already being used 
+                                                    to manage suscriptions of competitions, but it doesn't have a gamification part.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 {/* Triple Text */}
                                 <div className="row triple-text py-5">
                                     <div className="col-11 col-md-10 mx-auto">
@@ -229,53 +288,72 @@ class Dalig extends React.Component{
                                         <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/sitemap.png'} alt="SiteMap" />
                                     </div>
                                 </div>
-                                 {/* Centred picture */}
-                                 <div className="row py-5 centred-image ">
-                                    <div className="col-8 mx-auto text-center">
-                                        <h6 className="mb-5 display">Wireframes</h6>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/wireframes.jpg'} alt="Wireframes" />
-                                    </div>
-                                </div>
-                                {/* Centred picture */}
-                                <div className="row py-5 centred-image ">
-                                    <div className="col-8 mx-auto text-center">
-                                        <h6 className="mb-5 display">Prototype Screens</h6>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/lowfi.jpg'} alt="Low Fidelity Design" />
-                                    </div>
-                                </div>
+                             
+                               
+
 
                                 {/* ping pong photo descriptions */}
-                                <div className="row ping-pong-photo py-5">
-                                    <div className="col-10 mx-auto">
-                                        <h4 className="mb-2 display">High Fidelity Design Process</h4>
-                                        <h6 className="mb-5 display">Moodboard</h6>
+                                <div className="row ping-pong-photo py-5 my-5 odd">
+                                    <div className="col-11 col-md-10 mx-auto">
+                                        <div className="row">
+                                            <h6 className="mb-4 display">Visual design process</h6>
+                                        </div>
                                         <div className="row align-items-center">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
-                                                <img className="portfolio-img" 
-                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.jpg'} 
-                                                     alt="Moodboard" />
+                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.jpg'} 
+                                                        alt="Moodboard"/>
                                             </div>
-                                            <div className="col-12 col-md-6 ">
-                                                <p className="display lead-paragraph pl-0 pl-md-4">
-                                                    When thinking about Daligh we wanted to portray Vintage, 
-                                                    we went for greens and reds from fields mixed with cream 
-                                                    military inspired uniforms from the 70s and 80s. We also 
-                                                    wanted to connotate Energy, and since it's a fitness app 
+                                            <div className="col-12 col-md-6 px-0 pl-md-5">
+                                                <h2 className="mb-3 text-left">Moodboard</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    When thinking about DALIG I wanted to portray vintage sports, 
+                                                    so I went for old football fields photographs and creamy 
+                                                    military inspired uniforms from the 70s and 80s.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="row align-items-center mt-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                                <h2 className="mb-3 text-left">Colors</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    I also wanted to connotate energy, and since it's a fitness app 
                                                     in the end, we went for highly saturated almost neon 
-                                                    greens specially for call to actions.
+                                                    greens and reds specially for call to actions.
+                                                </p>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/colors.png'} 
+                                                        alt="Typography explorations"/>
+                                            </div>
+                                        </div>
+                                        <div className="row align-items-center mt-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/typeface.jpg'} 
+                                                    alt="Colors"/>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5 ">
+                                                
+                                                <h2 className="mb-3 text-left">Typography</h2>
+                                                
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    I wanted typefaces to be as organic as possible, so as I imagined this
+                                                    one to be an iOS, I went for SF Pro as the main and New York as the secondary one.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                {/* Full width picture */}
-                                <div className="row py-5 full-width-picture">
-                                    <div className="col-12">
-                                        <h6 className="display text-right mb-4 mx-5">Color and  Type</h6>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/color-and-type.png'} alt="Color and Type" />
+                                 {/* Centred picture */}
+                                 <div className="row py-5 centred-image ">
+                                    <div className="col-8 mx-auto text-center">
+                                        <h6 className="mb-5 display">Wireframes</h6>
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/wireframes.jpg'} alt="Low Fidelity Design" />
                                     </div>
                                 </div>
+
+                              
 
                                 {/* Centred picture */}
                                 <div className="row py-5 centred-image">
