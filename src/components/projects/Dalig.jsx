@@ -25,10 +25,10 @@ class Dalig extends React.Component{
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">
                                         <h2 className="mb-2 px-3 px-md-0">Case of Study</h2>
                                         <p className="px-3 px-md-0">
-                                            DALIG is an app I designed for fun thanks to my CrossFit coach. 
-                                            He was constantly creating competitions within his box and so we had this 
-                                            idea of creating a mobile app that made it easier for atheletes to keep track 
-                                            of their scores; and eventually I ended up creating a fully commercial 
+                                            DALIG is an app I designed for fun thanks to my CrossFit coach; 
+                                            He was constantly creating competitions within his box, but his athletes had
+                                            problems remembering their past competitions scores, so I came up with the 
+                                            idea of creating an app for that. Eventually I ended up creating a fully commercial 
                                             fitness application that welcomes athletes of different sports and have 
                                             global and specific leaderboards using gamification concepts to
                                             symbiotically create a fitter, better world. 
@@ -50,13 +50,13 @@ class Dalig extends React.Component{
                                                 <p className="pr-md-2 pr-sm-0">
                                                     Motivate athletes to go out 
                                                     of their comfort zone and take their 
-                                                    training to competition levels.
+                                                    training to competition to the next level.
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="px-md-2 px-sm-0">
                                                     Athletes want to upload their competition scores, 
-                                                    so they can visually test against each other.
+                                                    so they can visually compare against each other.
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
@@ -70,18 +70,18 @@ class Dalig extends React.Component{
                                 </div>
                                  {/* Centred Important Description */}
                                  <div className="row centred-description-important py-5">
-                                    <div className="col-md-9 col-sm-12 mx-auto text-left">
+                                    <div className="col-md-9 col-11 mx-auto text-left">
                                         <h2 className="mb-3 text-center">The Solution</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
                                             DALIG is a mobile application that allows athletes to create and participate 
                                             in competitions of an specific sport. 
                                             They will be able to upload their scores and have a record of their progress. 
-                                            But having to upload scores seems like work to me, so I decided
+                                            But having to upload scores seemed like work to me, so I decided
                                             to add some gamification concepts like
                                             having leaderboards and global ranks depending 
                                             on how they do in the competitions; they
                                             will be notified when their rank is surpased, 
-                                            or how better they need to do next time to surpase their buddy.
+                                            and how better they need to do next time to surpase their buddy.
                                         </p>
                                     </div>
                                 </div>
@@ -99,9 +99,9 @@ class Dalig extends React.Component{
                                         <h2 className="mb-3 text-center">Naming process</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
                                             The idea is to portray a short of "The number one league", 
-                                            then to be styled with a modern fonetica Da Lig, and intentionally 
-                                            to be confused with the surrealist paintor 
-                                            Dali, for it to get a sophisticated artsy connotation.
+                                            then to be styled with a modern fonetica "da lig", so intentionally 
+                                            would be confused with the surrealist paintor 
+                                            Dali, for it to get a sophisticated, artsy connotation.
                                         </p>
                                     </div>
                                 </div>
@@ -139,9 +139,8 @@ class Dalig extends React.Component{
                                                 <h2 className="mb-3 text-left">Duolingo</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     After the gamification concept was added I inmediately thought
-                                                    of Duolingo, and how Luis von Ahn transformed learning a language into 
-                                                    a worlwide game.
-
+                                                    of Duolingo, and how Luis von Ahn transformed "teaching a language" into 
+                                                    a fun social game.
                                                 </p>
                                             </div>
                                         </div>
@@ -151,7 +150,7 @@ class Dalig extends React.Component{
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     Second app was the main inspiration of this idea,
                                                     and it is how CrossFit handles their competitions
-                                                    like CrossFit Games and the CrossFit Open.
+                                                    like the "CrossFit Games" and "CrossFit Open".
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
@@ -260,8 +259,8 @@ class Dalig extends React.Component{
                                             </div>
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
-                                                    An Athlete Rank is calculated based on 
-                                                    Leaderboards of Competitions per Sport
+                                                    An Athlete rank is calculated based on 
+                                                    leaderboards of competitions per Sport
                                                 </p>
                                             </div>
                                         </div>
@@ -284,7 +283,7 @@ class Dalig extends React.Component{
                                 {/* Titled wide Image */}
                                 <div className="row py-5 titled-wide-image odd">
                                     <div className="col-10 mx-auto text-center">
-                                    <h6 className="mb-5 display">App Content and Interaction SiteMap</h6>
+                                    <h6 className="mb-5 display">App content and interaction SiteMap</h6>
                                         <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/sitemap.png'} alt="SiteMap" />
                                     </div>
                                 </div>
@@ -317,9 +316,9 @@ class Dalig extends React.Component{
                                             <div className="col-12 col-md-6 px-0 pr-md-5">
                                                 <h2 className="mb-3 text-left">Colors</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    I also wanted to connotate energy, and since it's a fitness app 
-                                                    in the end, we went for highly saturated almost neon 
-                                                    greens and reds specially for call to actions.
+                                                    I also wanted to connotate energy, and since it's a fitness app,
+                                                    in the end, I went for highly saturated almost neon 
+                                                    greens and reds, specially for call to actions.
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
@@ -342,73 +341,94 @@ class Dalig extends React.Component{
                                                 </p>
                                             </div>
                                         </div>
+                                        <div className="row align-items-center mt-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                                <h2 className="mb-3 text-left">Logotype and Icon</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    This is a vector customized SF Pro, it's italic to connotate movement
+                                                    and also the l and i are' trying to portray a field, which is also 
+                                                    DALIG's icon.
+                                                </p>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/logos.png'} 
+                                                        alt="Typography explorations"/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                  {/* Centred picture */}
                                  <div className="row py-5 centred-image odd">
                                     <div className="col-8 mx-auto text-center">
-                                        <h4 className="mb-5">Wireframes</h4>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/wireframes.jpg'} alt="Low Fidelity Design" />
+                                        <h6 className="mb-4 display">Wireframes</h6>
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/lowfi2.png'} alt="Low Fidelity Design" />
                                     </div>
                                 </div>
 
                               
 
-                                {/* Centred picture */}
-                                <div className="row py-5 centred-image">
-                                    <div className="col-5 mx-auto text-center">
-                                        <h6 className="display mb-4 mx-auto">Logo and Icon</h6>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/logos.png'} alt="Logos" />
-                                    </div>
-                                </div>
+                
 
                                 {/* Centred picture */}
-                                <div className="row py-5 full-width-picture">
+                                <div className="row py-5 full-width-picture odd">
                                     <div className="col-12 text-center">
-                                        <h5 className="display mb-4">High Fidelity Screens</h5>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/hifi.png'} alt="High Fidelity Design" />
+                                        <h6 className="display mb-4">High Fidelity Screens</h6>
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/hifi2.png'} alt="High Fidelity Design" />
                                     </div>
                                 </div>
 
                                 {/* ping pong photo descriptions */}
-                                <div className="row ping-pong-photo py-5">
-                                    <div className="col-10 offset-1">
-                                        <h6 className="mb-5 display">Test Updates</h6>
-                                        <div className="row align-items-center">
-                                            <div className="col-12 col-md-6 px-2 px-md-5 mb-5 mb-md-0">
-                                                <img className="portfolio-img" 
-                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes1.png'} 
-                                                     alt="Changes 1" />
-                                            </div>
-                                            <div className="col-12 col-md-6 ">
-                                                <p className="display lead-paragraph px-2 px-md-5 mb-5 mb-md-0">
-                                                    First thing we noticed at testing was that when asked to upload their event 
-                                                    score 80% of athletes tried to enter to the Event by clicking on the description, 
-                                                    whereas in the beginning they had to click on the word more to get into the Event
-                                                </p>
+                                <div className="row ping-pong-photo py-5 my-5">
+                                    <div className="col-11 col-md-10 mx-auto">
+                                        <div className="row text-md-right text-left">
+                                            <div className="col-12">
+                                                <h6 className="mb-4 display">Test Updates</h6>
                                             </div>
                                         </div>
                                         <div className="row align-items-center mt-5">
-                                            <div className="col-12 col-md-6 ">
-                                                <p className="display lead-paragraph px-2 px-md-5 mb-5 mb-md-0">
-                                                Then it was the 75% of athletes didn-t slide on the Rank section but expected to get 
-                                                to the Overal Leaderboard on click. So we chaged that and added a few filters to that Rank display.
+                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                                <h2 className="mb-3 text-left">Overall leaderboard</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    A little less than three quartes of athletes 
+                                                    didn't slide on the ranking section,
+                                                    but expected to get 
+                                                    to the overall Leaderboard after clicking on it. 
+                                                    So I changed that and added a few 
+                                                    more filters to that leaderboard screen
                                                 </p>
                                             </div>
-                                            <div className="col-12 col-md-6 px-2 px-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
-                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes2.jpg'} 
-                                                     alt="Changes 2" />
+                                                        src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes2.jpg'} 
+                                                        alt="Changes 2" />
                                             </div>
                                         </div>
+                                        <div className="row align-items-center py-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                                <img className="portfolio-img" 
+                                                        src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes1.png'} 
+                                                        alt="Changes 1" />
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-5">
+                                                <h2 className="mb-3 text-left">Event call to action</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    When asked to upload their event 
+                                                    score more than half of the athletes tried to enter to the 
+                                                    event by clicking on the description, 
+                                                    so I used that instead of just clicking 
+                                                    on the event title, as it was in the beginning.
+                                                </p>
+                                            </div>
+                                        </div>   
                                     </div>
                                 </div>
 
+
                                 {/* Triple Text */}
-                                <div className="row triple-text py-5">
+                                <div className="row triple-text">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <h1 className="display text-center">Final Flow</h1>
+                                        <h4 className="display text-center my-5">Final Flow</h4>
                                         <h2 className="mb-2">Goals</h2>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
@@ -424,7 +444,7 @@ class Dalig extends React.Component{
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pl-md-2 ps-sm-0">
-                                                    Explore the Leaderboards
+                                                    Explore the leaderboards
                                                 </p>
                                             </div>
                                         </div>
@@ -443,7 +463,7 @@ class Dalig extends React.Component{
 
                                  {/* Centred Important Description */}
                                  <div className="row centred-description-important py-5">
-                                    <div className="col-10 mx-auto text-left">
+                                    <div className="col-11 col-md-10 mx-auto text-left">
                                         <h2 className="mb-3 text-center">Conclusions and follow up</h2>
                                         <p className="lead-paragraph display">
                                             Even though this project was special to me, because it involved 
