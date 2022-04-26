@@ -9,21 +9,17 @@ class Dalig extends React.Component{
             <React.Fragment>
                 <Layout currentPage="Portfolio">
                     <div className="portfolio dalig">
-                        <section className="page-title bg-primary position-relative">
-                            <div className="container-fluid">
-                                <div className="row">
-                                    <div className="col-12 text-center">
-                                        <h1 className="text-white font-tertiary">DALIG</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
                         <section className="section">
                             <div className="container-fluid">
+                                <div className="row mt-5 mb-3">
+                                    <div className="col-md-10 col-11 mx-auto text-left">
+                                        <h1 className="font-tertiary">DALIG</h1>
+                                    </div>
+                                </div>
                                 {/* Main Description */}
-                                <div className="row main-description py-5">
+                                <div className="row main-description pb-5">
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">
-                                        <h2 className="mb-2 px-3 px-md-0">Case of Study</h2>
+                                        <h2 className="mb-3 px-3 px-md-0">Case of Study</h2>
                                         <p className="px-3 px-md-0">
                                             DALIG is an app I designed for fun thanks to my CrossFit coach; 
                                             He was constantly creating competitions within his box, but his athletes had
@@ -168,7 +164,7 @@ class Dalig extends React.Component{
                                                 <h2 className="mb-3 text-left">Pukiebook</h2>
                                                 
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    This woul be DALIG's direct competition, since it is already being used 
+                                                    This would be DALIG's direct competition, since it is already being used 
                                                     to manage suscriptions of competitions, but it doesn't have a gamification part.
                                                 </p>
                                             </div>

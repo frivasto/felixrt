@@ -9,69 +9,73 @@ class PortfolioShuffle extends React.Component{
             <React.Fragment> 
                 <section className="section portfolio">
                     <div className="container-fluid">
-                      
-                    {/* ping pong photo descriptions */}
-                     <div className="row ping-pong-photo">
-                        <div className="col-11 col-md-10 mx-auto">
-                            <div className="row align-items-center">
-                                <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
-                                    <Link to='/Portfolio/Dalig'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig2.jpg'} 
-                                                alt="Pentalogix Analytics"/>
-                                    </Link>
-                                </div>
-                                <div className="col-12 col-md-6 px-0 pl-md-5">
-                                    <Link to='/Portfolio/Dalig'>
-                                        <h2 className="mb-3 text-left">DALIG</h2>
-                                    </Link>
-                                    <h6 className="mb-3 text-left tagline">UI/UX DESIGN  · MOBILE<br/>BRAND DEVELOPMENT</h6>
-                                    <p className="lead-paragraph mb-5 mb-md-0">
-                                        DALIG is a mobile app that allows athletes to create and participate in competitions, 
-                                        then they can upload their scores; they will have leaderboards and a 
-                                        global rank, depending on how they do in the competitions. 
-                                    </p>
-                                </div>
-                            </div>
-                           
-                            <div className="row align-items-center mt-5">
-                                <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
-                                    <Link to='/Portfolio/ThisBrand'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/felixrt.jpg'} 
-                                            alt="Pentalogix Analytics"/>
-                                    </Link>
-                                </div>
-                                <div className="col-12 col-md-6 px-0 pl-md-5 ">
-                                    <Link to='/Portfolio/ThisBrand'>
-                                        <h2 className="mb-3 text-left">Felixrt-&lt;3</h2>
-                                    </Link>
-                                    <h6 className="mb-3 text-left tagline">UI/UX DESIGN  · WEB <br/>BRAND DEVELOPMENT</h6>
-                                    <p className="lead-paragraph mb-5 mb-md-0">
-                                        This is the story of how I created this brand; I mean my personal brand, 
-                                        and the website you are reading this from.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="row align-items-center mt-5">
-                                <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
-                                    <Link to='/Portfolio/Pentalogix'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/pentalogix.png'} 
-                                                alt="Pentalogix Analytics"/>
-                                    </Link>
-                                </div>
-                                <div className="col-12 col-md-6 px-0 pl-md-5">
-                                    <Link to='/Portfolio/Pentalogix'>
-                                        <h2 className="mb-3 text-left">PentaLogix</h2>
-                                    </Link>
-                                    <h6 className="mb-3 text-left tagline">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT    </h6>
-                                    <p className="lead-paragraph mb-5 mb-md-0">
-                                        PentaLogix is a web shopping cart that allows customers to get customized quotes from
-                                        different Printed Circuit Boards suppliers, and then buy them. 
-                                    </p>
-                                </div>
-                                
+                        <div className="row mt-5 mb-3">
+                            <div className="col-md-10 col-11 mx-auto text-left px-0">
+                                <h1 className="font-tertiary">Portfolio</h1>
                             </div>
                         </div>
-                    </div>
+                        {/* ping pong photo descriptions */}
+                        <div className="row ping-pong-photo">
+                            <div className="col-11 col-md-10 mx-auto">
+                                <div className="row align-items-center">
+                                    <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                        <Link to='/Portfolio/Dalig'>
+                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig2.jpg'} 
+                                                    alt="Pentalogix Analytics"/>
+                                        </Link>
+                                    </div>
+                                    <div className="col-12 col-md-6 px-0 pl-md-5">
+                                        <Link to='/Portfolio/Dalig'>
+                                            <h2 className="mb-3 text-left">DALIG</h2>
+                                        </Link>
+                                        <h6 className="mb-3 text-left tagline">UI/UX DESIGN  · MOBILE<br/>BRAND DEVELOPMENT</h6>
+                                        <p className="lead-paragraph mb-5 mb-md-0">
+                                            DALIG is a mobile app that allows athletes to create and participate in competitions, 
+                                            then they can upload their scores; they will have leaderboards and a 
+                                            global rank, depending on how they do in the competitions. 
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div className="row align-items-center mt-5">
+                                    <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                        <Link to='/Portfolio/ThisBrand'>
+                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/felixrt.jpg'} 
+                                                alt="Pentalogix Analytics"/>
+                                        </Link>
+                                    </div>
+                                    <div className="col-12 col-md-6 px-0 pl-md-5 ">
+                                        <Link to='/Portfolio/ThisBrand'>
+                                            <h2 className="mb-3 text-left">Felixrt-&lt;3</h2>
+                                        </Link>
+                                        <h6 className="mb-3 text-left tagline">UI/UX DESIGN  · WEB <br/>BRAND DEVELOPMENT</h6>
+                                        <p className="lead-paragraph mb-5 mb-md-0">
+                                            This is the story of how I created this brand; I mean my personal brand, 
+                                            and the website you are reading this from.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row align-items-center mt-5">
+                                    <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                        <Link to='/Portfolio/Pentalogix'>
+                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/pentalogix.png'} 
+                                                    alt="Pentalogix Analytics"/>
+                                        </Link>
+                                    </div>
+                                    <div className="col-12 col-md-6 px-0 pl-md-5">
+                                        <Link to='/Portfolio/Pentalogix'>
+                                            <h2 className="mb-3 text-left">PentaLogix</h2>
+                                        </Link>
+                                        <h6 className="mb-3 text-left tagline">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT    </h6>
+                                        <p className="lead-paragraph mb-5 mb-md-0">
+                                            PentaLogix is a web shopping cart that allows customers to get customized quotes from
+                                            different Printed Circuit Boards suppliers, and then buy them. 
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>       
     

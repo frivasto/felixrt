@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 class MenuBar extends React.Component{
     render(){
         return (
-            <header className="navigation fixed-top">
+            <header className="navigation fixed-top nav-bg">
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <Link className="navbar-brand font-tertiary h3" to="/">
                         <img src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="Felixrt-" />

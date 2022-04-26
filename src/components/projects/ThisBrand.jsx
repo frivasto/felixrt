@@ -9,21 +9,15 @@ class ThisBrand extends React.Component{
         return (
             <React.Fragment>
                 <Layout currentPage="Portfolio">
-                    <div className="portfolio thisbrand">
-                        <section className="page-title bg-primary position-relative">
-                            <div className="container-fluid">
-                                <div className="row">
-                                    <div className="col-12 text-center">
-                                        <h1 className="text-white font-tertiary">Felixrt-&lt;3</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
                     <section className="section">
                         <div className="container-fluid">
+                            <div className="row mt-5 mb-3">
+                                    <div className="col-md-10 col-11 mx-auto text-left">
+                                        <h1 className="font-tertiary">Felixrt-&lt;3</h1>
+                                    </div>
+                                </div>
                              {/* Main Description */}
-                             <div className="row main-description py-5">
+                             <div className="row main-description">
                                 <div className="col-md-8 offset-md-1 col-sm-12 text-left">
                                     <h2 className="mb-2 px-3 px-md-0">Case of Study</h2>
                                     <p className="px-3 px-md-0">
@@ -45,21 +39,20 @@ class ThisBrand extends React.Component{
                                     <div className="row">
                                         <div className="col-md-4 col-sm-12">
                                             <p className="pr-md-2 pr-sm-0">
-                                                I used to only code web pages, 
-                                                and design the user experience of it, 
-                                                because that's what my parents would pay for.
+                                                I used to only do the coding of web pages, 
+                                                and designing the user interactions. But I was never really involved with the visuals of it all. 
                                             </p>
                                         </div>
                                         <div className="col-md-4 col-sm-12">
                                             <p className="px-md-2 px-sm-0">
-                                                But I have always been obsessed with the visuals
+                                                But I have always been obsessed with the arts and visuals
                                                 more than anything so I never stopped learning about it
                                             </p>
                                         </div>
                                         <div className="col-md-4 col-sm-12">
                                             <p className="pl-md-2 ps-sm-0">
-                                                I didn't have any clients that gave me  the opportunity to design 
-                                                the visuals. They only wanted me to code their websites.
+                                                I didn't have clients to practice my visual design 
+                                                skills.
                                             </p>
                                         </div>
                                     </div>
@@ -70,10 +63,10 @@ class ThisBrand extends React.Component{
                                 <div className="col-md-9 col-sm-12 mx-auto text-left">
                                     <h2 className="mb-3 text-center">The Solution</h2>
                                     <p className="lead-paragraph display px-3 px-md-0">
-                                        So I decided to rebrand my career, I part time studied Graphic Design 
-                                        and User Interface Design and portray that journey here on Felixrt.com. 
-                                        So I took my 10 years of experience as a web interaction designer and 
-                                        developer and applied them to create my own story, now as a UI/UX Designer. Hi!
+                                        So I followed the user interface design path, and studied graphic design, 
+                                        user centered design, among other fields; and took my 10 years of experience as a 
+                                        web interaction developer/designer and 
+                                        and applied them to create this brand. Hi!
                                     </p>
                                 </div>
                             </div>
