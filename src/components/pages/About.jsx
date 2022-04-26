@@ -5,9 +5,9 @@ const About = () => {
     return (
         <React.Fragment>
             <Layout currentPage="about">
-                <section className="section pt-5 home-about">
+                <section className="section home-about">
                     <div className="container-fluid">
-                        <div className="row mt-5 mb-3">
+                        <div className="row mt-5">
                             <div className="col-md-10 col-11 mx-auto text-right">
                                 <h1 className="font-tertiary">This is me</h1>
                             </div>

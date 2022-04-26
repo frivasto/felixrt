@@ -154,10 +154,10 @@ h6, .h6 {
 
 .dark{
   &.btn-outline-secondary,&.btn-outline-secondary{
-    color: #EDE7F3;
+    color: #F8F7FA;
     background-color: transparent;
     background-image: none;
-    border-color: #EDE7F3;
+    border-color: #F8F7FA;
     border: 1px solid;
 
     padding: 0.5em 2em;
@@ -488,14 +488,19 @@ textarea.form-control {
 .navbar .nav-item{
   padding: 15px;
 }
-.navbar .nav-item.active a{
-  font-weight: bold;
-  border-bottom: 2px solid #5DE3F5;
-  padding: 8px 0;
+.navbar .nav-item.active{ 
+  a{
+    font-weight: bold;
+    border-bottom: 2px solid #B5274D;
+    padding: 8px 0;
+  }
+  >.nav-link{
+   color: #F8F7FA !important; 
+  }
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #F8F7FA;
 }
 
 .hero-area {
@@ -547,7 +552,7 @@ textarea.form-control {
     opacity: 81%;
   }  
   opacity: 95%;
-  color: #EDE7F3;
+  color: #F8F7FA;
 }
 
 /* skills */
