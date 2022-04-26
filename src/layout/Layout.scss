@@ -151,6 +151,24 @@ h6, .h6 {
 .btn-transparent:active, .btn-transparent:hover {
   color: #41228e;
 }
+
+.dark{
+  &.btn-outline-secondary,&.btn-outline-secondary{
+    color: #EDE7F3;
+    background-color: transparent;
+    background-image: none;
+    border-color: #EDE7F3;
+    border: 1px solid;
+
+    padding: 0.5em 2em;
+    border-radius: 5em;
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: "Roboto", san-serif;
+
+  }
+}
+
 .badge{
   padding: 0.5em 2em;
   border-radius: 5em;
@@ -295,10 +313,6 @@ a:hover {
 
 .text-dark {
   color: #000 !important;
-}
-
-.text-light {
-  color: #999999 !important;
 }
 
 .mb-10 {
@@ -485,8 +499,21 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  .networks{
+    right: 0;
+    bottom: 7rem;
+  }
+  .call-to-action{
+    padding-top: 9rem;
+  }
+  padding: 18rem 0 8rem;
   position: relative;
+  background-image: url(../../public/images/backgrounds/bottom-planet.png) !important;
+  background-position: bottom center !important;
+ // background-clip: content-box;         	
+  background-color: #110D14 !important;      
+  background-repeat: no-repeat !important;   
+  
 }
 @media (max-width: 767px) {
   .hero-area {
@@ -516,8 +543,11 @@ textarea.form-control {
   h2{
     opacity: 81%;
   }
+  &.font-secondary{
+    opacity: 81%;
+  }  
   opacity: 95%;
-  color: #ffffff;
+  color: #EDE7F3;
 }
 
 /* skills */
@@ -578,6 +608,12 @@ textarea.form-control {
   left: 0;
   top: -300px;
   z-index: -1;
+}
+.education{
+  background-image: url(../../public/images/backgrounds/right-top-galaxy.jpg) !important;
+  background-position: right top !important;   	
+  background-color: #110D14 !important;      
+  background-repeat: no-repeat !important;   
 }
 
 /* /education */
@@ -695,6 +731,10 @@ textarea.form-control {
 /* footer */
 .footer-section {
   padding-top: 200px;
+  background-image: url(../../public/images/backgrounds/main-footer.jpg) !important;
+  background-position: center bottom !important;   	
+  background-color: #110D14 !important;      
+  background-repeat: no-repeat !important;   
 }
 
 .section-on-footer {

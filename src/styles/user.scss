@@ -1,6 +1,14 @@
 /*
 *   Home
 */
+.text-white{
+    color: #EDE7F3!important;
+}
+.text-light{
+    color: #EDE7F3!important;
+    opacity: 0.81;
+}
+
 .tagline{
     color: #7A7A7A;
 }
@@ -36,9 +44,10 @@
 
 .odd{
     background-color: #000000;
-    color: #DBDBDB;
+    color: #EDE7F3;
     p{
-        color: #929292;
+        color: #EDE7F3;
+        opacity: 0.71;
     }
     .text-danger{
         color: #FF5F8A!important;

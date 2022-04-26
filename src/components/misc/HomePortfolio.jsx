@@ -5,10 +5,10 @@ import { Link } from "react-router-dom"
 const HomePortfolio = () => {
     return (
         <React.Fragment>
-            <section className="section portfolio">
+            <section className="section portfolio" id="portfolio">
                 <div className="container-fluid">
                     {/* Main Description */}
-                    <div className="row main-description pb-5">
+                    <div className="row main-description pb-4">
                         <div className="col-md-8 offset-md-1 col-12 text-left px-0">
                             <h2 className="mb-2 px-3 px-md-0">The Projects</h2>
                             <p className="px-3 px-md-0">
@@ -25,7 +25,7 @@ const HomePortfolio = () => {
                             <div className="row align-items-center">
                                 <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
                                     <Link to='/Portfolio/Dalig'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig2.jpg'} 
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig.jpg'} 
                                                 alt="Pentalogix Analytics"/>
                                     </Link>
                                 </div>
@@ -83,7 +83,7 @@ const HomePortfolio = () => {
                     {/* See More */}
                     <div className="row text-right mt-3">
                         <div className="col-10 px-2 mx-auto">
-                            <Link to="/Portfolio" className="badge float-right"><h4 className='text-danger'>All projects →</h4></Link>
+                            <Link to="/Portfolio" className="badge float-right pr-0"><h4 className='text-danger'>All projects →</h4></Link>
                         </div>
                     </div>
                 </div>
