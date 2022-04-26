@@ -18,13 +18,13 @@ class PortfolioShuffle extends React.Component{
                         <div className="row ping-pong-photo">
                             <div className="col-11 col-md-10 mx-auto">
                                 <div className="row align-items-center">
-                                    <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                    <div className="col-12 col-md-6 px-0 pr-md-4 mb-3 mb-md-0">
                                         <Link to='/Portfolio/Dalig'>
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig2.jpg'} 
                                                     alt="Pentalogix Analytics"/>
                                         </Link>
                                     </div>
-                                    <div className="col-12 col-md-6 px-0 pl-md-5">
+                                    <div className="col-12 col-md-6 px-0 pl-md-4">
                                         <Link to='/Portfolio/Dalig'>
                                             <h2 className="mb-3 text-left">DALIG</h2>
                                         </Link>
@@ -38,13 +38,13 @@ class PortfolioShuffle extends React.Component{
                                 </div>
                             
                                 <div className="row align-items-center mt-5">
-                                    <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                    <div className="col-12 col-md-6 px-0 pr-md-4 mb-3 mb-md-0">
                                         <Link to='/Portfolio/ThisBrand'>
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/felixrt.jpg'} 
                                                 alt="Pentalogix Analytics"/>
                                         </Link>
                                     </div>
-                                    <div className="col-12 col-md-6 px-0 pl-md-5 ">
+                                    <div className="col-12 col-md-6 px-0 pl-md-4">
                                         <Link to='/Portfolio/ThisBrand'>
                                             <h2 className="mb-3 text-left">Felixrt-&lt;3</h2>
                                         </Link>
@@ -56,13 +56,13 @@ class PortfolioShuffle extends React.Component{
                                     </div>
                                 </div>
                                 <div className="row align-items-center mt-5">
-                                    <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                    <div className="col-12 col-md-6 px-0 pr-md-4 mb-3 mb-md-0">
                                         <Link to='/Portfolio/Pentalogix'>
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/pentalogix.png'} 
                                                     alt="Pentalogix Analytics"/>
                                         </Link>
                                     </div>
-                                    <div className="col-12 col-md-6 px-0 pl-md-5">
+                                    <div className="col-12 col-md-6 px-0 pl-md-4">
                                         <Link to='/Portfolio/Pentalogix'>
                                             <h2 className="mb-3 text-left">PentaLogix</h2>
                                         </Link>
