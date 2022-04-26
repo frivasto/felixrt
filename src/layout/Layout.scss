@@ -4,7 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  color: #000000;
+  color: #1F1F1F;
 }
 
 p, .paragraph {
@@ -177,7 +177,7 @@ h6, .h6 {
   font-family: "Roboto", san-serif;
 }
 a.badge, a.badge:hover{
-  color: #000000;
+  color: #1f1f1f;
 }
 .bg-danger, .bg-danger:hover {
   background-color: #FF799D !important;
@@ -296,7 +296,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #000000 !important;
+  background: #110D14 !important;
 }
 
 .bg-gray {
@@ -312,7 +312,7 @@ a:hover {
 }
 
 .text-dark {
-  color: #000 !important;
+  color: #1f1f1f !important;
 }
 
 .mb-10 {
@@ -475,7 +475,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #000000;
+    background-color: #110D14;
   }
 }
 
@@ -684,7 +684,7 @@ textarea.form-control {
   left: 0;
   right: 0;
   text-align: center;
-  background-color: #000000;
+  background-color: #110D14;
   padding: 1em;
 }
 
@@ -787,7 +787,7 @@ blockquote {
   font-family: "Lora", serif;
   font-size: 22px;
   font-weight: normal;
-  color: #000;
+  color: #1f1f1f;
   display: inherit;
   line-height: 1.5;
 }

@@ -25,7 +25,7 @@ const HomePortfolio = () => {
                             <div className="row align-items-center">
                                 <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
                                     <Link to='/Portfolio/Dalig'>
-                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig.jpg'} 
+                                        <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/home/dalig2.jpg'} 
                                                 alt="Pentalogix Analytics"/>
                                     </Link>
                                 </div>
