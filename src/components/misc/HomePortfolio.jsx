@@ -47,7 +47,7 @@ const HomePortfolio = () => {
                                         <h2 className="mb-3 text-left">Felixrt-&lt;3</h2>
                                     </Link>
                                     <h6 className="mb-3 text-left tagline"> UI/UX DESIGN  · WEB <br/>BRAND DEVELOPMENT</h6>
-                                    <p className="lead-paragraph mb-5 mb-md-0">
+                                    <p className="lead-paragraph mb-3 mb-md-0">
                                         This is the story of how I created this brand; I mean my personal brand, 
                                         and the website you are reading this from.
                                     </p>
