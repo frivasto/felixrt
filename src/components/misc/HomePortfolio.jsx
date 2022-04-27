@@ -81,7 +81,7 @@ const HomePortfolio = () => {
                                         <h6 className="mb-3 text-left tagline">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT</h6>
                                         <p className="lead-paragraph mb-5 mb-md-0">
                                             PentaLogix is a web shopping cart that allows customers to get customized quotes from
-                                            different Printed Circuit Boards suppliers, and then buy them. 
+                                            different PCB suppliers, and then buy them. 
                                         </p>
                                     </div>
                                 </div>

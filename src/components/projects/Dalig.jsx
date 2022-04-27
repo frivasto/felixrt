@@ -58,7 +58,7 @@ class Dalig extends React.Component{
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pl-md-2 ps-sm-0">
                                                     Athletes want to have a history of their 
-                                                    competitions and scores.
+                                                    competition scores.
                                                 </p>
                                             </div>
                                         </div>
@@ -69,15 +69,10 @@ class Dalig extends React.Component{
                                     <div className="col-md-9 col-11 mx-auto text-left">
                                         <h2 className="mb-3 text-center">The Solution</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
-                                            DALIG is a mobile application that allows athletes to create and participate 
-                                            in competitions of an specific sport. 
-                                            They will be able to upload their scores and have a record of their progress. 
-                                            But having to upload scores seemed like work to me, so I decided
-                                            to add some gamification concepts like
-                                            having leaderboards and global ranks depending 
-                                            on how they do in the competitions; they
-                                            will be notified when their rank is surpased, 
-                                            and how better they need to do next time to surpase their buddy.
+                                        DALIG is a mobile application that allows athletes to create and participate in competitions. 
+                                        They will be able to upload their scores and have a rank based on them. 
+                                        Then, as a hook, I added gamification concepts like having 
+                                        notifications when a friend surpassed the athlete's rank and giving visual rewards when they do it instead. 
                                         </p>
                                     </div>
                                 </div>
@@ -96,8 +91,8 @@ class Dalig extends React.Component{
                                         <p className="lead-paragraph display px-3 px-md-0">
                                             The idea is to portray a short of "The number one league", 
                                             then to be styled with a modern fonetica "da lig", so intentionally 
-                                            would be confused with the surrealist paintor 
-                                            Dali, for it to get a sophisticated, artsy connotation.
+                                            could be confused with the name of the surrealist paintor 
+                                            "Dalí", for it to get a sophisticated, artsy connotation.
                                         </p>
                                     </div>
                                 </div>
@@ -134,9 +129,9 @@ class Dalig extends React.Component{
                                             <div className="col-12 col-md-6 px-0 pl-md-5">
                                                 <h2 className="mb-3 text-left">Duolingo</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    After the gamification concept was added I inmediately thought
-                                                    of Duolingo, and how Luis von Ahn transformed "teaching a language" into 
-                                                    a fun social game.
+                                                    After the gamification concept was added, I immediately thought of Duolingo, 
+                                                    and how Luis von Ahn transformed "learning a language" into a fun social game.
+
                                                 </p>
                                             </div>
                                         </div>
@@ -144,8 +139,8 @@ class Dalig extends React.Component{
                                             <div className="col-12 col-md-6 px-0 pr-md-5">
                                                 <h2 className="mb-3 text-left">CrossFit Games</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    Second app was the main inspiration of this idea,
-                                                    and it is how CrossFit handles their competitions
+                                                    This app was the main inspiration of DALIG,
+                                                    because of how they handle their competitions
                                                     like the "CrossFit Games" and "CrossFit Open".
                                                 </p>
                                             </div>
@@ -164,8 +159,8 @@ class Dalig extends React.Component{
                                                 <h2 className="mb-3 text-left">Pukiebook</h2>
                                                 
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    This would be DALIG's direct competition, since it is already being used 
-                                                    to manage suscriptions of competitions, but it doesn't have a gamification part.
+                                                    This would be DALIG's direct competition, since it is already being used to manage 
+                                                    tournament subscriptions, but it doesn't have a gamification hook.
                                                 </p>
                                             </div>
                                         </div>
@@ -185,15 +180,13 @@ class Dalig extends React.Component{
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="px-md-2 px-sm-0">
-                                                    On the political side, they are flexible 
-                                                    but with a strong comunity based sense of purpose. 
+                                                    On the political side, they are flexible, but 
+                                                    they have a strong community sense of purpose.
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pl-md-2 ps-sm-0">
-                                                    On the financial side, they are work centered with the 
-                                                    rest of their time wanting to engage in physical and healthy activities. 
-                                                    
+                                                    On the financial side, they are work centered.
                                                 </p>
                                             </div>
                                         </div>
@@ -235,8 +228,7 @@ class Dalig extends React.Component{
                                                     He believes life is about moving. He spends most of his day working in the lands, 
                                                     making sure harvests go as desired. He doesn't have much time, but when he does, 
                                                     he likes being an active member of his CrossFit community, participating in most 
-                                                    of the things they have to offer. He likes to look good and meet people since 
-                                                    he is from another city.
+                                                    of the things they have to offer. 
                                                 </p>
                                             </div>
                                         </div>
@@ -246,11 +238,11 @@ class Dalig extends React.Component{
                                 <div className="row fourthe-text-important py-5">
                                     <div className="col-11 col-md-10 mx-auto">
                                         <h6 className="mb-4 display">Main Functionalities</h6>
-                                        <div className="row align-items-center">
+                                        <div className="row align-items-top">
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
-                                                    Athletes can create a new competition. Competition 
-                                                    could have one or several event.
+                                                    Athletes can create a new competition. Competitions 
+                                                    can have one or several events.
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md-6">
@@ -260,16 +252,16 @@ class Dalig extends React.Component{
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="row align-items-center mt-2">
+                                        <div className="row align-items-top mt-2">
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
-                                                    Events could have scores, scores could be validated 
-                                                    by judges. scores are used to feed a leaderboard.
+                                                Events have scores, scores can be validated by judges. 
+                                                Scores are also used to calculate leaderboards.
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
-                                                    Athletes can join teams, and teams could 
+                                                    Athletes can join teams, and teams can also 
                                                     have ranks by sum(athletes).
                                                 </p>
                                             </div>
@@ -294,59 +286,56 @@ class Dalig extends React.Component{
                                             <h6 className="mb-4 display">Visual design process</h6>
                                         </div>
                                         <div className="row align-items-center">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.jpg'} 
                                                         alt="Moodboard"/>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4">
                                                 <h2 className="mb-3 text-left">Moodboard</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    When thinking about DALIG I wanted to portray vintage sports, 
-                                                    so I went for old football fields photographs and creamy 
-                                                    military inspired uniforms from the 70s and 80s.
+                                                When thinking about DALIG I wanted to connote vintage sports, 
+                                                so I went for old football fields and creamy military inspired uniforms from the 70s and 80s.
 
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="row align-items-center mt-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
                                                 <h2 className="mb-3 text-left">Colors</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    I also wanted to connotate energy, and since it's a fitness app,
-                                                    in the end, I went for highly saturated almost neon 
-                                                    greens and reds, specially for call to actions.
+                                                    I also wanted to portray energy, and since it's a fitness app, 
+                                                    I went for highly saturated almost neon greens and reds, specially for call to actions.
                                                 </p>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/colors.png'} 
                                                         alt="Typography explorations"/>
                                             </div>
                                         </div>
                                         <div className="row align-items-center mt-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/typeface.jpg'} 
                                                     alt="Colors"/>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5 ">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4 ">
                                                 
                                                 <h2 className="mb-3 text-left">Typography</h2>
                                                 
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    I wanted typefaces to be as organic as possible, so as I imagined this
-                                                    one to be an iOS, I went for SF Pro as the main and New York as the secondary one.
+                                                    I wanted typefaces to be as organic as possible, and since this one was imagined to be an iOS, 
+                                                    I went for “SF Pro” as the primary one and “New York” to complement it. 
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="row align-items-center mt-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
                                                 <h2 className="mb-3 text-left">Logotype and Icon</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    This is a vector customized SF Pro, it's italic to connotate movement
-                                                    and also the l and i are' trying to portray a field, which is also 
-                                                    DALIG's icon.
+                                                    This is a vector customized SF Pro. It's italic to connote movement, and the L and I 
+                                                    were also modified to look like a field, which is also DALIG's icon.
                                                 </p>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/logos.png'} 
                                                         alt="Typography explorations"/>
                                             </div>
@@ -377,46 +366,39 @@ class Dalig extends React.Component{
                                 {/* ping pong photo descriptions */}
                                 <div className="row ping-pong-photo py-5 my-5">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <div className="row text-md-right text-left">
-                                            <div className="col-12">
-                                                <h6 className="mb-4 display">Test Updates</h6>
-                                            </div>
-                                        </div>
-                                        <div className="row align-items-center mt-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
-                                                <h2 className="mb-3 text-left">Overall leaderboard</h2>
-                                                <p className="lead-paragraph mb-5 mb-md-0">
-                                                    A little less than three quartes of athletes 
-                                                    didn't slide on the ranking section,
-                                                    but expected to get 
-                                                    to the overall Leaderboard after clicking on it. 
-                                                    So I changed that and added a few 
-                                                    more filters to that leaderboard screen
-                                                </p>
-                                            </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
-                                                <img className="portfolio-img" 
-                                                        src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes2.jpg'} 
-                                                        alt="Changes 2" />
-                                            </div>
+                                        <div className="row">
+                                            <h6 className="mb-4 display">User testing</h6>
                                         </div>
                                         <div className="row align-items-center py-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
                                                         src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes1.png'} 
                                                         alt="Changes 1" />
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5">
-                                                <h2 className="mb-3 text-left">Event call to action</h2>
+                                            <div className="col-12 col-md-6 px-0 pl-md-4">
+                                                <h2 className="mb-3 text-left">Uploading scores</h2>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    When asked to upload their event 
-                                                    score more than half of the athletes tried to enter to the 
-                                                    event by clicking on the description, 
-                                                    so I used that instead of just clicking 
-                                                    on the event title, as it was in the beginning.
+                                                    When asked to upload their event score, more than half of the athletes tried to open the event 
+                                                    by clicking on the description, so I used that instead of just clicking on the title.
                                                 </p>
                                             </div>
-                                        </div>   
+                                        </div> 
+                                        <div className="row align-items-center mt-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
+                                                <h2 className="mb-3 text-left">Overall leaderboard</h2>
+                                                <p className="lead-paragraph mb-5 mb-md-0">
+                                                    A little less than three quarters of athletes didn't slide on the ranking section, 
+                                                    but expected to get 
+                                                    to the overall Leaderboard after clicking on it. So I changed that and added a 
+                                                    few more filters to that leaderboard screen
+                                                </p>
+                                            </div>
+                                            <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
+                                                <img className="portfolio-img" 
+                                                        src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/changes2.png'} 
+                                                        alt="Changes 2" />
+                                            </div>
+                                        </div> 
                                     </div>
                                 </div>
 
@@ -462,13 +444,11 @@ class Dalig extends React.Component{
                                     <div className="col-11 col-md-10 mx-auto text-left">
                                         <h2 className="mb-3 text-center">Conclusions and follow up</h2>
                                         <p className="lead-paragraph display">
-                                            Even though this project was special to me, because it involved 
-                                            two of my passions: Sports (specially CrossFit) and UI Design, 
-                                            it felt good in the end to flow with the end users and make 
-                                            the changes that needed to be made so in the end, the App was usable 
-                                            to them, which it's always the goal. We are now in the developing process, 
-                                            so if you are a developer with similar passions, do not hesitate 
-                                            in contacting me and chat about what we can do.
+                                            This project was special to me, because it involves two of my passions: sports and design.
+                                            It felt good to work together with my local CrossFit community to help them achieve their 
+                                            fitness goals, while they are having fun. We are now in the developing process, 
+                                            so if you are a developer with similar passions, do not hesitate in contacting
+                                            me and chat about what we can do.
                                         </p>
                                     </div>
                                 </div>

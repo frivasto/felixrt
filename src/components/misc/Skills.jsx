@@ -29,6 +29,22 @@ class Skills extends React.Component {
                         <div className='row'>
                             <div className="col-11 col-md-10 mx-auto">
                                 <div className="row">
+                                    <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                                        <h4>Design</h4>
+                                        <ul className="pl-0">
+                                            <li>UI/UX</li>
+                                            <li>Web, Mobile</li>
+                                            <li>Brand Development</li>
+                                            <li>Interaction Maps</li>
+                                            <li>Video Production</li>
+                                            <li>Responsive</li>
+                                        </ul>
+                                        <ul className="pl-0 mt-4">
+                                            <li>Figma</li>
+                                            <li>Adobe Creatives</li>
+                                            <li>User centred design </li>
+                                        </ul>
+                                    </div>
                                     
                                     <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
                                         <h4>FrontEnd Dev</h4>
@@ -69,22 +85,7 @@ class Skills extends React.Component {
                                             <li>SendinBlue</li>
                                         </ul>
                                     </div>
-                                    <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                        <h4>Design</h4>
-                                        <ul className="pl-0">
-                                            <li>UI&amp;UX</li>
-                                            <li>Web, Mobile</li>
-                                            <li>Brand Development</li>
-                                            <li>Interaction Maps</li>
-                                            <li>Video Production</li>
-                                            <li>Responsive</li>
-                                        </ul>
-                                        <ul className="pl-0 mt-4">
-                                            <li>Figma</li>
-                                            <li>Adobe Creatives</li>
-                                            <li>User centred design </li>
-                                        </ul>
-                                    </div>
+                                    
                                     <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
                                         <h4>Soft Skills</h4>
                                         <ul className="pl-0">
