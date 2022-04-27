@@ -1,10 +1,19 @@
 import React from 'react'
-import $ from 'jquery'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
-class Header extends React.Component {
+var Scroll   = require('react-scroll');
+var scroller = Scroll.scroller;
 
+class Header extends React.Component {
+    scrollTo() {
+        scroller.scrollTo('HomePortfolio', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+          offset: -50
+        })
+      }
     render(){
         return (
             <React.Fragment>
@@ -23,7 +32,7 @@ class Header extends React.Component {
                         </div>
                         <div className="row call-to-action">
                             <div className="col-12 mx-auto text-center">
-                                <a href="#portfolio" className="dark btn btn-outline-secondary">TAKE A LOOK  ↓</a>
+                                <a to="HomePortfolio" className="dark btn btn-outline-secondary" onClick={() => this.scrollTo()}>TAKE A LOOK  ↓</a>
                             </div>
                         </div>
                     </div>
