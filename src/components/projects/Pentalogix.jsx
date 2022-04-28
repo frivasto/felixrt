@@ -16,7 +16,7 @@ class Pentalogix extends React.Component{
                         <section className="section">
                             <div className="container-fluid">
                                  {/* Main Description */}
-                                 <div className="row mt-5 mb-3">
+                                 <div className="row mt-5 mb-0">
                                     <div className="col-md-10 col-11 mx-auto text-left">
                                         <h1 className="font-tertiary">PentaLogix</h1>
                                     </div>
@@ -43,23 +43,23 @@ class Pentalogix extends React.Component{
                                  {/* Triple Text */}
                                  <div className="row triple-text py-5">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <h2 className="mb-2">The Problems</h2>
+                                        <h6 className="mb-2 display">Think</h6>
+                                        <h3 className="mb-4">The Problems</h3>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pr-md-2 pr-sm-0">
-                                                    The only way of customer-supplier communication
-                                                    was through emailing PL's agent.
+                                                    The only way of customer/supplier communication was through an agent email, and 
+                                                    the PCB selling was separated from the site
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="px-md-2 px-sm-0">
-                                                    There were no specific brand colors or typography, and 
-                                                    PCB selling was separated from the site.
+                                                    There were no specific brand colors or typography
                                                 </p>
                                             </div>
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pl-md-2 ps-sm-0">
-                                                    The pages were static.
+                                                    The pages were static
                                                 </p>
                                             </div>
                                         </div>
@@ -68,19 +68,12 @@ class Pentalogix extends React.Component{
                                 {/* Centred Important Description */}
                                 <div className="row centred-description-important py-5">
                                     <div className="col-md-9 col-sm-12 mx-auto text-left">
-                                        <h2 className="mb-3 text-center">The Solutions</h2>
+                                        <h2 className="mb-3 text-center">The Solution</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
-                                            The heart of PL are its CAD Software Products, 
-                                            specially its star product
-                                            "ViewMate" which is popular among PCB designers. 
-                                            But Agustin, the owner, wanted
-                                            to transform PL to not just be a PCB Software company,
-                                            but also a PCB seller. So we designed
-                                            a PCB Manufacturing product page and 
-                                            several PCB products that were siblings to their
-                                            Software Product, and we founded a way 
-                                            that when people landed to view a product 
-                                            we also displayed their counterparts.
+                                            I followed the Lean UX Design framework to create a Shopping Cart application, 
+                                            in an iterative process that lasted for about 4 years; With the creation of custom quotes, 
+                                            landing pages and Printed Circuit Board products that complemented the CAD Software Products, 
+                                            which were already popular among PCB designers. 
                                         </p>
                                     </div>
                                 </div>
@@ -89,55 +82,49 @@ class Pentalogix extends React.Component{
                                 <div className="row ping-pong-photo py-5">
                                     <div className="col-md-10 mx-auto col-11">
                                         <div className="row">
-                                            <h6 className="mb-4 display">Redesigning</h6>
+                                            <h6 className="mb-2 display">Make</h6>
                                         </div>
                                         <div className="row align-items-center">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote1.png'} 
                                                 alt="Pentalogix Analytics"/>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5">
-                                                <h4 className="mb-1">The old site</h4>
+                                            <div className="col-12 col-md-6 px-0 pl-md-4">
+                                                <h4 className="mb-1">Redesigning the old site</h4>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    We took Agustin's old SmartDFM which asked for a zip file containing all 
-                                                    the PCB technical specs and their email, so one of their workers could 
-                                                    open it and then respond to the end user with a personalized quote. 
-                                                    We proposed an online quote that asked for their technical specs, 
-                                                    and started consuming their already filled specs vs prices database.
+                                                    This was a static page that asked for a zip file that contained the PCB technical specifications. 
+                                                    Then it was delivered via email, so finally an agent could respond to it with a custom quote.  
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="row align-items-center my-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
                                                 <h4 className="mb-1 text-left">Wireframes</h4>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    The original wireframes contained all the processes that 
-                                                    were going to be automatic now, including quoting, 
-                                                    saving the quote, showing several supplier costs,
-                                                    adjusting the prices to gain a profit, and sending 
-                                                    the quotes to both supplier and customer.
+                                                    We proposed an online quoting application within the webpage, 
+                                                    that asked for the technical specifications and presented an automatic quote, 
+                                                    showing several supplier prices, depending on lead times, 
+                                                    and adjusting them to gain a profit.
                                                 </p>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
                                                     src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote_design1.png'} 
                                                     alt="Wireframes"/>
                                             </div>
                                         </div>
                                         <div className="row align-items-center my-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
                                                 <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/quote_design2.jpg'} 
                                                     alt="Pentalogix Quote Design"/>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4">
+                                                <h4 className="mb-1 text-left">Prototypes</h4>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    For the prototypes, I worked with my friend Aldo
-                                                    with whom we changed the mood, interactions and journey of the users
-                                                    from the homepage, passing through the quoting interface you see to the left,
-                                                    to the the "thank you for your order" page, so we ended up even adding
-                                                    the shopping cart features 
-                                                    closing up the 
-                                                    whole buying cycle.
+                                                    For this, I worked with my friend Aldo with whom we changed the mood, 
+                                                    interactions and journey of the users from the homepage, 
+                                                    passing through the quoting interface, until the "thank you for your order" 
+                                                    email, closing up the whole buying process.
                                                 </p>
                                             </div>
                                         </div>
@@ -146,11 +133,11 @@ class Pentalogix extends React.Component{
                                 {/* Centred Important Description */}
                                 <div className="row centred-description-important py-5 odd">
                                     <div className="col-md-7 col-10 mx-auto text-left">
-                                        <h2 className="mb-3 text-center">Final Iterations</h2>
+                                        
+                                        <h6 className="mb-3 display text-center">Check</h6>
                                         <p className="px-3 px-md-0">
-                                            In the end we realized that the users 
-                                            barely changed some of the specs, so we decided to reduce the 
-                                            specs options and present more quantities and lead times per price.
+                                            We realized that a portion of the users barely changed some of the specifications, 
+                                            so we created several PCB Products, with a variety of predefined options.
                                         </p>
                                     </div>
                                 </div>
@@ -176,35 +163,28 @@ class Pentalogix extends React.Component{
                                             <h6 className="mb-4 display">The Semantic Plus</h6>
                                         </div>
                                         <div className="row align-items-center">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                             <img className="portfolio-img" 
                                                  src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/analytics.jpg'} 
                                                  alt="Pentalogix Analytics"/>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4">
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                I also started tracking how people were searching to get to our pages 
-                                                by integrating Google Analytics. From there I was able to realize people 
-                                                were responding to the several keywords, 
-                                                so all the pages were transformed to talk about those keywords in a meaningful 
-                                                way that was also informative for the users.
+                                                    I also started tracking how people were searching to get to the pages
+                                                     by integrating Google Analytics to the website, 
+                                                     which later evolved into an aggressive SEO and SEM campaign.
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="row align-items-center my-5">
-                                            <div className="col-12 col-md-6 px-0 pr-md-5">
+                                            <div className="col-12 col-md-6 px-0 pr-md-4">
                                                
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    With the analytics data I was able to generate the paid search 
-                                                    acquisition channel which elevated the conversion 
-                                                    rates by more than 50% when active, besides starting 
-                                                    several types of email marketing campaigns.
-                                                    The entire approach of the page was changed to visualize a multi product 
-                                                    centered e-commerce, 
-                                                    and Analytics proved that right after the shift, New Users curve started to grow.
+                                                    With the analytics data I was able to generate the paid search acquisition channel which elevated the conversion 
+                                                    rates by more than 50%, besides managing several types of email marketing campaigns. 
                                                 </p>
                                             </div>
-                                            <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                            <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" 
                                                      src={ process.env.PUBLIC_URL + '/images/portfolio/pentalogix/analytics3.jpg'} 
                                                      alt="PentaLogix Analytics results"/>
@@ -218,11 +198,12 @@ class Pentalogix extends React.Component{
                                     <div className="col-10 mx-auto text-left">
                                         <h2 className="mb-3 text-center">Conclusions and follow up</h2>
                                         <p className="lead-paragraph display">
-                                            Similar to this, I participated in the design and coding of all of PL's pages
-                                            and human interactions including a video tutorials interface, a blog section, a software cad product and more. I will 
-                                            uploading more of this projects eventually, so don't mind bookmarking Felixrt or 
-                                             <a href="mailto:frivasto@gmail.com"> ask me</a> to tell you! It's free ;)<br/>
-                                            To be continued...
+                                                I participated in the design and coding of all of PL's pages including 
+                                                a video tutorials interface, a blog section, a software CAD product and more.
+                                                 I will be uploading more of these projects eventually, 
+                                                 so feel free to bookmark this site or contact me.
+                                                <br/>
+                                                To be continued...
                                         </p>
                                     </div>
                                 </div>
