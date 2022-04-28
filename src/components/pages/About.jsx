@@ -22,10 +22,14 @@ const About = () => {
                                             <div className="col-12 mx-auto col-xl-12 mx-xl-0 text-left mt-4 ">
                                                 <h2 className="mb-2">Félix Rivas</h2>
                                                 <p className="lead-paragraph px-xl-0 py-0 mb-0 display">
-                                                    For the past ten years I have created web and mobile apps and I have been involved in every part of the making process.
-                                                    I have always been obsessed with computers, graphics and creating metaphoric presentations using technology.
-                                                    Now I have a bachelor degree in Computer Science with a Multimedia specialization, and I've also studied Graphic Design for creating my drag persona. Oh, yes, I’m also a Drag Queen.
-                                                    Now It would be my pleasure to use my creativity to help anyone to create their dream product.
+                                                    For the past 10 years, I have worked creating pretty and responsive web pages 
+                                                    and applications. I've been involved in every step of the making process, 
+                                                    trying to always put the user's needs first and make it accessible to anyone.<br/>
+                                                    But I've been obsessed with technology, visual arts and storytelling from a very young age;
+                                                    and since then, I haven't stopped studying those fields, 
+                                                    on the technical side, and more recently, on the visual one.
+                                                    Now it would be my pleasure to use my experience and creativity to help anyone to create their 
+                                                    dream product.
                                                 </p>
                                             </div>
                                         </div>
