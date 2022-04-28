@@ -8,38 +8,20 @@ const About = () => {
                 <section className="section home-about">
                     <div className="container-fluid">
                         <div className="row mt-5">
-                            <div className="col-md-10 col-11 mx-auto text-right">
+                            <div className="col-md-10 col-11 mx-auto text-left">
                                 <h1 className="font-tertiary">This is me</h1>
                             </div>
                         </div>
+
                         <div className="row">
-                        <   div className="col-md-10 col-11 mx-auto ">
-                                <div className="row">
-                                    <div className="col-md-5 col-12 offset-md-1 pl-md-5 pt-md-5 mt-md-5 pt-2 mt-2">
-                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/drag.jpg'} 
-                                                alt="About Drag"/>
-                                    </div>
-                                    <div className="col-md-3 col-12 pl-md-3 pt-md-3 mt-md-3 pt-2">
-                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/friendship.jpg'} 
-                                                alt="About Friendship"/>
-
-                                    </div>
-                                    <div className="col-md-3 col-12 pt-2 ">
-                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/crossfit.jpg'} 
-                                                alt="About CrossFit"/>
-
-                                    </div>
-                                </div>
-                                <div className="row align-items-end">
-                                    <div className="col-md-5 pl-md-2 pt-md-2 col-12 mt-2">
-                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/felix2.jpg'} 
-                                                alt="About Felix"/>
-                                    </div>
-                                    <div className="col-md-7">
+                            <div className="col-md-10 col-11 mx-auto ">   
+                                <div className="row align-items-center">
+                                 
+                                    <div className="col-xl-7 col-12">
                                         <div className="row centred-description-important">
-                                            <div className="col-12 mx-auto col-md-12 mx-md-0 text-left mt-4">
-                                                <h3 className="mb-2">Félix Rivas</h3>
-                                                <p className="lead-paragraph px-md-0 py-0 mb-0">
+                                            <div className="col-12 mx-auto col-xl-12 mx-xl-0 text-left mt-4 ">
+                                                <h2 className="mb-2">Félix Rivas</h2>
+                                                <p className="lead-paragraph px-xl-0 py-0 mb-0 display">
                                                     For the past ten years I have created web and mobile apps and I have been involved in every part of the making process.
                                                     I have always been obsessed with computers, graphics and creating metaphoric presentations using technology.
                                                     Now I have a bachelor degree in Computer Science with a Multimedia specialization, and I've also studied Graphic Design for creating my drag persona. Oh, yes, I’m also a Drag Queen.
@@ -47,6 +29,77 @@ const About = () => {
                                                 </p>
                                             </div>
                                         </div>
+                                        <div className="row centred-description-important mt-1">
+                                            <div className="col-12 mx-auto col-xl-12 mx-xl-0 text-left mt-4">
+                                                <h2 className="mb-2">My desiging journey</h2>
+                                                <p className="lead-paragraph px-xl-0 py-0 mb-0 display">
+                                                    I believe my first true exposure to UI Design was my University's powerpoint presentations.
+                                                     Remember fighting with my group members to be the one who did them, and enjoyed going 
+                                                    a little further with the effects, use of hyperlinks and even incorporating videos,
+                                                    which now, connecting the dots, I understand as Interaction Design.
+                                                    I created my first website back in the 2000s, 
+                                                    I basically downloaded Cartoon Network's web page and changed 
+                                                    the titles and pictures and uploaded it to a blogging site. 
+                                                    I then received an email from CN headquarters saying they were going to sue, I was 10.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-5 px-xl-2 pt-xl-2 col-12 mt-xl-2 mt-4 ">
+                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/felix2.jpg'} 
+                                                alt="About Felix"/>
+
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div className="row mt-5 pt-5">
+                            <div className="col-md-10 col-11 mx-auto ">   
+                                <div className="row">
+                                    <h2 className="mb-4 mx-2">My Personal Journey</h2>
+                                </div>    
+                                <div className="row">
+                                    <div className="col-md-3 col-12 px-md-2 mt-2 mt-md-0">
+                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/about1.png'} 
+                                                alt="About Design"/>
+                                    </div>
+                                    <div className="col-md-3 col-12 px-md-2 mt-2 mt-md-0">
+                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/about2.png'} 
+                                                alt="About Work"/>
+                                    </div>
+                                    <div className="col-md-3 col-12 px-md-2 mt-2 mt-md-0">
+                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/about3.png'} 
+                                                alt="About Drag"/>
+
+                                    </div>
+                                    <div className="col-md-3 col-12 px-md-2 mt-2 mt-md-0">
+                                        <img className="about-img" src={ process.env.PUBLIC_URL + '/images/about/about4.png'} 
+                                                alt="About CrossFit"/>
+                                    </div>
+                                </div>
+                                <div className="row mt-md-5 mt-3">
+                                    <div className="col-12 mx-auto col-md-12 mx-md-0 text-left ">
+                                        <p className="lead-paragraph px-md-0 py-0 mb-0 display">
+                                            I have navigated several fields in this world, but my natural curiosity 
+                                            for how things work has been constant; hence my interests in spacetime 
+                                            and science in general. I also love that, as humans, we are able to express 
+                                            almost anything using different media. More personally, 
+                                            I have explored the world of Drag, using my Drag persona as a vehicle to tell stories. 
+                                            I may say I'm a scientist with an artistic heart.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row mt-5">
+                                    <div className="col-md-8 mx-md-auto odd">
+                                        <p className="lead-paragraph mb-0 p-md-5 p-3 display">
+                                            I have navigated several fields in this world, but my natural curiosity 
+                                            for how things work has been constant; hence my interests in spacetime 
+                                            and science in general. I also love that, as humans, we are able to express 
+                                            almost anything using different media. More personally, 
+                                            I have explored the world of Drag, using my Drag persona as a vehicle to tell stories. 
+                                            I may say I'm a scientist with an artistic heart.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

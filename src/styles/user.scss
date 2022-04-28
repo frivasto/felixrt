@@ -79,6 +79,10 @@ a, a:hover{
 .portfolio-img, .about-img{
     width: 100%;
 }
+.about-principal{
+    position: absolute;
+    top: 0;
+}
 .portfolio{
     &.dalig,&.pentalogix{
         .odd{
