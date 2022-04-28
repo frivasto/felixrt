@@ -49,7 +49,7 @@ class About extends React.Component{
                                                         I created my first website back in the 2000s, 
                                                         I basically downloaded Cartoon Network's web page and changed 
                                                         the titles and pictures and uploaded it to a blogging site. 
-                                                        I then received an email from CN headquarters saying they were going to sue, I was 10.
+                                                        I then received an email from CN's headquarters saying they were going to sue, I was 10.
                                                     </p>
                                                 </div>
                                             </div>
