@@ -12,19 +12,16 @@ class About extends React.Component{
                 <Layout currentPage="about">
                     <section className="section home-about">
                         <div className="container-fluid">
-                            <div className="row mt-5">
-                                <div className="col-md-10 col-11 mx-auto text-left">
-                                    <h1 className="font-tertiary">This is me</h1>
-                                </div>
-                            </div>
+                       
 
-                            <div className="row">
+                            <div className="row mt-5">
                                 <div className="col-md-10 col-11 mx-auto ">   
-                                    <div className="row align-items-center">
+                                    <div className="row align-items-end">
                                     
                                         <div className="col-xl-7 col-12">
                                             <div className="row centred-description-important">
                                                 <div className="col-12 mx-auto col-xl-12 mx-xl-0 text-left mt-4 ">
+                                                    <h2 className="font-tertiary display mb-2">About</h2>
                                                     <h2 className="mb-2">Félix Rivas</h2>
                                                     <p className="lead-paragraph px-xl-0 py-0 mb-0 display">
                                                         For the past 10 years, I have worked creating pretty and responsive web pages 
@@ -42,14 +39,14 @@ class About extends React.Component{
                                                 <div className="col-12 mx-auto col-xl-12 mx-xl-0 text-left mt-4">
                                                     <h2 className="mb-2">My desiging journey</h2>
                                                     <p className="lead-paragraph px-xl-0 py-0 mb-0 display">
-                                                        I believe my first true exposure to UI Design was my University's powerpoint presentations.
-                                                        Remember fighting with my group members to be the one who did them, and enjoyed going 
-                                                        a little further with the effects, use of hyperlinks and even incorporating videos,
-                                                        which now, connecting the dots, I understand as Interaction Design.
                                                         I created my first website back in the 2000s, 
-                                                        I basically downloaded Cartoon Network's web page and changed 
-                                                        the titles and pictures and uploaded it to a blogging site. 
-                                                        I then received an email from CN's headquarters saying they were going to sue, I was 10.
+                                                        I basically downloaded Cartoon Network's web page and changed the titles and pictures,
+                                                        and uploaded it to a blogging site. I received an email from CN's headquarters saying 
+                                                        they were going to sue, I was 10.
+                                                        Later in life, I believe one of my first experiences with ui design was my College's 
+                                                        powerpoint presentations. I enjoyed going a little extra with the use of hyperlinks, 
+                                                        effects and videos, which now, I understand as interaction design.
+
                                                     </p>
                                                 </div>
                                             </div>
@@ -66,7 +63,7 @@ class About extends React.Component{
                             <div className="row mt-5 pt-5">
                                 <div className="col-md-10 col-11 mx-auto ">   
                                     <div className="row">
-                                        <h2 className="mb-4 mx-2">My Personal Journey</h2>
+                                        <h2 className="mb-4 mx-2">My personal journey</h2>
                                     </div>    
                                     <div className="row">
                                         <div className="col-md-3 col-12 px-md-2 mt-2 mt-md-0">
