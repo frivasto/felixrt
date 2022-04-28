@@ -21,13 +21,9 @@ class Dalig extends React.Component{
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">
                                         <h2 className="mb-3 px-3 px-md-0">Case of Study</h2>
                                         <p className="px-3 px-md-0">
-                                            DALIG is an app I designed for fun thanks to my CrossFit coach; 
+                                            DALIG is an app I created in about 4 months, using the User Centered Design framework, thanks to my CrossFit coach; 
                                             He was constantly creating competitions within his box, but his athletes had
-                                            problems remembering their past competitions scores, so I came up with the 
-                                            idea of creating an app for that. Eventually I ended up creating a fully commercial 
-                                            fitness application that welcomes athletes of different sports and have 
-                                            global and specific leaderboards using gamification concepts to
-                                            symbiotically create a fitter, better world. 
+                                            problems remembering their past competitions scores, so I decided to solve it with an iOS app. 
                                         </p>
                                     </div>
                                 </div>
@@ -40,7 +36,9 @@ class Dalig extends React.Component{
                                 {/* Triple Text */}
                                 <div className="row triple-text py-5">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <h2 className="mb-2">The Problems</h2>
+
+                                        <h6 className="mb-2 display">Understand</h6>
+                                        <h3 className="mb-4">The Problems</h3>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pr-md-2 pr-sm-0">
@@ -237,7 +235,8 @@ class Dalig extends React.Component{
                                 {/* four texts important */}
                                 <div className="row fourthe-text-important py-5">
                                     <div className="col-11 col-md-10 mx-auto">
-                                        <h6 className="mb-4 display">Main Functionalities</h6>
+                                        <h6 className="mb-2 display">Specify</h6>
+                                        <h3 className="mb-4">Main Functionalities</h3>
                                         <div className="row align-items-top">
                                             <div className="col-12 col-md-6">
                                                 <p className="lead-paragraph display">
@@ -283,15 +282,17 @@ class Dalig extends React.Component{
                                 <div className="row ping-pong-photo py-5 my-5">
                                     <div className="col-11 col-md-10 mx-auto">
                                         <div className="row">
-                                            <h6 className="mb-4 display">Visual design process</h6>
+                                            <h6 className="mb-4 display">Design</h6>
                                         </div>
+                                            
+                                        
                                         <div className="row align-items-center">
                                             <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                                 <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/dalig/moodboard.jpg'} 
                                                         alt="Moodboard"/>
                                             </div>
                                             <div className="col-12 col-md-6 px-0 pl-md-4">
-                                                <h2 className="mb-3 text-left">Moodboard</h2>
+                                                <h3 className="mb-2 text-left">Moodboard</h3>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                 When thinking about DALIG I wanted to connote vintage sports, 
                                                 so I went for old football fields and creamy military inspired uniforms from the 70s and 80s.
@@ -301,7 +302,7 @@ class Dalig extends React.Component{
                                         </div>
                                         <div className="row align-items-center mt-5">
                                             <div className="col-12 col-md-6 px-0 pr-md-4">
-                                                <h2 className="mb-3 text-left">Colors</h2>
+                                                <h3 className="mb-2 text-left">Colors</h3>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     I also wanted to portray energy, and since it's a fitness app, 
                                                     I went for highly saturated almost neon greens and reds, specially for call to actions.
@@ -319,7 +320,7 @@ class Dalig extends React.Component{
                                             </div>
                                             <div className="col-12 col-md-6 px-0 pl-md-4 ">
                                                 
-                                                <h2 className="mb-3 text-left">Typography</h2>
+                                                <h3 className="mb-2 text-left">Typography</h3>
                                                 
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     I wanted typefaces to be as organic as possible, and since this one was imagined to be an iOS, 
@@ -329,7 +330,7 @@ class Dalig extends React.Component{
                                         </div>
                                         <div className="row align-items-center mt-5">
                                             <div className="col-12 col-md-6 px-0 pr-md-4">
-                                                <h2 className="mb-3 text-left">Logotype and Icon</h2>
+                                                <h3 className="mb-2 text-left">Logotype and Icon</h3>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     This is a vector customized SF Pro. It's italic to connote movement, and the L and I 
                                                     were also modified to look like a field, which is also DALIG's icon.
@@ -367,7 +368,7 @@ class Dalig extends React.Component{
                                 <div className="row ping-pong-photo py-5 my-5">
                                     <div className="col-11 col-md-10 mx-auto">
                                         <div className="row">
-                                            <h6 className="mb-4 display">User testing</h6>
+                                            <h6 className="mb-4 display">Evaluate</h6>
                                         </div>
                                         <div className="row align-items-center py-5">
                                             <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
@@ -376,7 +377,7 @@ class Dalig extends React.Component{
                                                         alt="Changes 1" />
                                             </div>
                                             <div className="col-12 col-md-6 px-0 pl-md-4">
-                                                <h2 className="mb-3 text-left">Uploading scores</h2>
+                                                <h3 className="mb-2 text-left">Uploading scores</h3>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     When asked to upload their event score, more than half of the athletes tried to open the event 
                                                     by clicking on the description, so I used that instead of just clicking on the title.
@@ -385,7 +386,7 @@ class Dalig extends React.Component{
                                         </div> 
                                         <div className="row align-items-center mt-5">
                                             <div className="col-12 col-md-6 px-0 pr-md-4">
-                                                <h2 className="mb-3 text-left">Overall leaderboard</h2>
+                                                <h3 className="mb-2 text-left">Overall leaderboard</h3>
                                                 <p className="lead-paragraph mb-5 mb-md-0">
                                                     A little less than three quarters of athletes didn't slide on the ranking section, 
                                                     but expected to get 
@@ -407,7 +408,7 @@ class Dalig extends React.Component{
                                 <div className="row triple-text">
                                     <div className="col-11 col-md-10 mx-auto">
                                         <h4 className="display text-center my-5">Final Flow</h4>
-                                        <h2 className="mb-2">Goals</h2>
+                                        <h3 className="mb-2">Goals</h3>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12">
                                                 <p className="pr-md-2 pr-sm-0">
