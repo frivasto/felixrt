@@ -102,12 +102,12 @@ class About extends React.Component{
                                     <div className="row mt-5">
                                         <div className="col-md-8 mx-md-auto odd">
                                             <p className="lead-paragraph mb-0 p-md-5 p-3 display">
-                                                I have navigated several fields in this world, but my natural curiosity 
-                                                for how things work has been constant; hence my interests in spacetime 
-                                                and science in general. I also love that, as humans, we are able to express 
-                                                almost anything using different media. More personally, 
-                                                I have explored the world of Drag, using my Drag persona as a vehicle to tell stories. 
-                                                I may say I'm a scientist with an artistic heart.
+                                                Last thing I would like to share about me is the importance I give to inclusivity as a designer,
+                                                and this resonates personally with me from my core. As an LGBTQ person, who grew up in a small town, 
+                                                in a difficult environment, I understand the importance of including historically marginalized humans, 
+                                                and I try to keep that in mind  when designing. I loved connecting all the dots on my life that lead me 
+                                                to where I am today, and in the end, using my job as my life purpose to create a better, more functional 
+                                                world, for everyone.
                                             </p>
                                         </div>
                                     </div>
