@@ -20,9 +20,10 @@ class ThisBrand extends React.Component{
                              <div className="row main-description">
                                 <div className="col-md-8 offset-md-1 col-sm-12 text-left">
                                     <h2 className="mb-2 px-3 px-md-0">Case of Study</h2>
-                                    <p className="px-3 px-md-0">
-                                        Now I would like to take you on a little inception tour. 
-                                        Everything you see around this web site is part of my reinvention from a web developer to a ui/ux designer.
+                                    <p className="px-3 px-md-0"> 
+                                        Now I would like to take you on a little inception tour. Everything you see around 
+                                        this website is part of my journey to build my own brand as a ui/ux designer. 
+
                                     </p>
                                 </div>
                             </div>
@@ -35,24 +36,25 @@ class ThisBrand extends React.Component{
                             {/* Triple Text */}
                             <div className="row triple-text py-5 mt-3">
                                 <div className="col-11 col-md-10 mx-auto">
-                                    <h2 className="mb-2">The Problems</h2>
+                                 
+                                        
+                                    <h6 className="mb-2 display">Research</h6>
+                                    <h3 className="mb-4">The Problems</h3>
                                     <div className="row">
                                         <div className="col-md-4 col-sm-12">
                                             <p className="pr-md-2 pr-sm-0">
-                                                I used to only do the coding of web pages, 
-                                                and designing the user interactions. But I was never really involved with the visuals of it all. 
+                                                I needed a digital way to present myself as a ui/ux designer.
                                             </p>
                                         </div>
                                         <div className="col-md-4 col-sm-12">
                                             <p className="px-md-2 px-sm-0">
-                                                But I have always been obsessed with the arts and visuals
-                                                more than anything so I never stopped learning about it
+                                                I didn't have a webpage to present the projects I've been practicing my design skills on.
+
                                             </p>
                                         </div>
                                         <div className="col-md-4 col-sm-12">
                                             <p className="pl-md-2 ps-sm-0">
-                                                I didn't have clients to practice my visual design 
-                                                skills.
+                                                I didn't have a brand.
                                             </p>
                                         </div>
                                     </div>
@@ -63,10 +65,9 @@ class ThisBrand extends React.Component{
                                 <div className="col-md-9 col-sm-12 mx-auto text-left">
                                     <h2 className="mb-3 text-center">The Solution</h2>
                                     <p className="lead-paragraph display px-3 px-md-0">
-                                        So I followed the user interface design path, and studied graphic design, 
-                                        user centered design, among other fields; and took my 10 years of experience as a 
-                                        web interaction developer/designer and 
-                                        and applied them to create this brand. Hi!
+                                        So I followed the Double Diamond Design framework to bind my artistic and technical 
+                                        experience and present it to the 
+                                        digital world in the form of typography, colors, images and lots of personality.
                                     </p>
                                 </div>
                             </div>
@@ -81,10 +82,10 @@ class ThisBrand extends React.Component{
                                 <div className="col-md-8 offset-md-1 col-sm-12 text-left">
                                     <h2 className="mb-2 px-3 px-md-0">Brainstorming and naming</h2>
                                     <p className="px-3 px-md-0">
-                                        I started writing down all the keywords I believe define me and from there, so I could from 
-                                        there inspire me and stay true to who I am. Then I used some of those the keywords to create a 
-                                        nickname, and after a few iterations I concluded that just my name (Félix) followed by my last 
-                                        name i nitials (rt) would be the simplest form of representing me out there.
+                                    I started writing down all the keywords I believe define me. 
+                                    Then I used some of those, to create a nickname, 
+                                    that after a few iterations ended up being Felixrt, 
+                                    which stands for Felix Rivas Tomalá.
                                     </p>
                                 </div>
                             </div>
@@ -143,69 +144,67 @@ class ThisBrand extends React.Component{
                             <div className="row ping-pong-photo py-5 my-5">
                                 <div className="col-11 col-md-10 mx-auto">
                                     <div className="row">
-                                        <h6 className="mb-4 display">The Visuals</h6>
+                                        <h6 className="mb-4 display">Design</h6>
                                     </div>
                                     <div className="row align-items-center">
-                                        <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                        <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/moodboard.jpg'} 
                                                     alt="Moodboard"/>
                                         </div>
-                                        <div className="col-12 col-md-6 px-0 pl-md-5">
-                                            <h2 className="mb-3 text-left">Moodboard</h2>
+                                        <div className="col-12 col-md-6 px-0 pl-md-4">
+                                            <h3 className="mb-2 text-left">Moodboard</h3>
                                             <p className="lead-paragraph mb-5 mb-md-0">
-                                                So I grew up in the 90s so I figured that my brand should depict some elements 
-                                                from that time, like pixelated icons, nintendo, sega, and also reference some 
-                                                of my technology role models and inspirations like Elon, and Steve. I also 
-                                                wanted to use colors from pink and blue stopping a little bit on the magenta, 
-                                                since I am a spacetime admirer and those colors remind me of it.
+                                            I grew up in the 90s, and I thought my imagery should depict some nostalgia from that time, 
+                                            so I thought of pixelated icons and old video games. 
+                                            I also wanted to reference some of my technology role models like Elon and Steve.
 
                                             </p>
                                         </div>
                                     </div>
                                     <div className="row align-items-center mt-5">
-                                        <div className="col-12 col-md-6 px-0 pr-md-5">
-                                            <h2 className="mb-3 text-left">Type Exploratons</h2>
+                                        <div className="col-12 col-md-6 px-0 pr-md-4">
+                                            <h3 className="mb-2 text-left">Type Explorations</h3>
                                             <p className="lead-paragraph mb-5 mb-md-0">
-                                                I wanted a san-serif as my primary type, and wanted a clean, elegant one, 
-                                                so I inclined myself to the open source Google one Roboto, because it was already 
-                                                widely used and tested and it made sense with the developer part of my brand. 
-                                                Additionally I chose Lora as the serif partner, since they did a pretty good 
-                                                match and depicted nicely my creative more stylish counterpart.
+                                                I wanted a readable type that depicted technology, so I chose the san-serif
+                                                "Roboto", because it was already being widely used by Android 
+                                                and it made sense with the developer side of my brand. Additionally I chose 
+                                                Lora as the serif partner, since they did a pretty good match, 
+                                                and depicted nicely my artsy side.
                                             </p>
                                         </div>
-                                        <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                        <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/type.png'} 
                                                     alt="Typography explorations"/>
                                         </div>
                                     </div>
                                     <div className="row align-items-center mt-5">
-                                        <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                        <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/colors.png'} 
                                                 alt="Colors"/>
                                         </div>
-                                        <div className="col-12 col-md-6 px-0 pl-md-5 ">
+                                        <div className="col-12 col-md-6 px-0 pl-md-4 ">
                                             
-                                            <h2 className="mb-3 text-left">Colors</h2>
+                                            <h2 className="mb-2 text-left">Colors</h2>
                                             
                                             <p className="lead-paragraph mb-5 mb-md-0">
-                                                From the Moodboard I extracted and played with some colors and I ended up choosing pink 
-                                                because it was wednesday, estelar blue because I like spacetime and mint green because 
-                                                I think it's romantic. 
+                                                From the Moodboard, I extracted and played with some colors, 
+                                                and ended up choosing pink, because it was wednesday, 
+                                                estelar blue because I like spacetime, and mint green because I think it's romantic.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="row align-items-center mt-5">
-                                        <div className="col-12 col-md-6 px-0 pr-md-5">
-                                            <h2 className="mb-3 text-left">Logotype and Icons</h2>
+                                        <div className="col-12 col-md-6 px-0 pr-md-4">
+                                            <h2 className="mb-2 text-left">Logotype and Icon</h2>
                                             <p className="lead-paragraph mb-5 mb-md-0">
-                                                The logotype part is a slightly modified Roboto accompanied with 
+                                                The logotype part is a slightly modified "Roboto", accompanied with 
                                                 an icon that is a 90s inspired arrow pointing forward and up, 
-                                                because that is what hard work does.
-                                                It's pixeled to contrast with Roboto's clean and smooth typeface 
-                                                to create a little noise.
+                                                because there is where hard work goes.
+                                                It's pixelated to contrast with Roboto's clean and smooth typeface 
+                                                and create a little noise.
                                             </p>
                                         </div>
-                                        <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                        <div className="col-12 col-md-6 px-0 pl-md-4 mb-5 mb-md-0">
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/logotype.png'} 
                                                     alt="Logotype and Icon"/>
                                         </div>
@@ -218,35 +217,35 @@ class ThisBrand extends React.Component{
                                     <div className="row ">
                                         <div className="col-12 px-0">
                                             <h6 className="mb-1 display">Brand Application</h6>
-                                            <h4 className="mb-4 ">This website</h4>
+                                            <h3 className="mb-4 ">This website</h3>
                                         </div>
                                     </div>
                                     <div className="row align-items-center">
-                                        <div className="col-12 col-md-6 px-0 pr-md-5 mb-5 mb-md-0">
+                                        <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
                                             <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/chalo.jpg'} 
                                                     alt="Intention"/>
                                         </div>
-                                        <div className="col-12 col-md-6 px-0 pl-md-5">
-                                            <h2 className="mb-3 text-left">Intention</h2>
+                                        <div className="col-12 col-md-6 px-0 pl-md-4">
+                                            <h4 className="mb-2 text-left">Intention</h4>
                                             <p className="lead-paragraph mb-5 mb-md-0">
-                                                Now with this site I wanted people to get to know me as a designer, 
-                                                so first thing will pop up is my design portfolio. Followed by a 
-                                                brief description of who I am as a human being; then I wanted to
-                                                 depict design concepts like contrast, therefore you will see a 
-                                                 lot of black and white, also content direction, manage of white 
-                                                 space to tell you my story, and show it in a way that can be 
-                                                 responsive and look good on any device you are reading this.
+                                                I wanted people to get to know me as a designer, so the first thing that will show up, 
+                                                after my name, is my design portfolio, followed by a brief description of who I am.
+                                                And everything is intended to be presented in a way that the design concepts, 
+                                                and the content, have contrast, while directing you through my story, 
+                                                having white spaces to breathe, in a perfectly clean HTML, JavaScript and CSS.
+
                                             </p>
                                         </div>
                                     </div>
                                     <div className="row align-items-center mt-5">
                                         <div className="col-12 col-md-6 px-0 pr-md-5">
-                                            <h2 className="mb-3 text-left">Development</h2>
+                                            <h4 className="mb-2 text-left">Development</h4>
                                             <p className="lead-paragraph mb-5 mb-md-0">
-                                                The code part was a little funny, because since it was a simple personal 
-                                                page, you may say I would have used the vanilla way of frontend or even a wordpress, 
-                                                but I decided to keep practicing my reactjs, so I used it to divide my sections 
-                                                into components.
+                                                The code part was a little funny, because this is a simple portfolio page, 
+                                                so you may say I would have used the vanilla way to frontend a webpage, 
+                                                or even a Wordpress; but instead, 
+                                                I decided to keep practicing my ReactJs; and now 
+                                                I have a personal webpage well divided in ReactJs components.
                                             </p>
                                         </div>
                                         <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
@@ -265,7 +264,7 @@ class ThisBrand extends React.Component{
                                         So this represents the current me as of the first quarter of 2022. 
                                         Now I would love to hear from you. Send me an email if you are interested 
                                         in having a conversation about user interfaces, apps, spacetime, crossfit, 
-                                        drag or even better, your thoughts on this design. Hope you are having a great one!
+                                        drag or even better, your thoughts on this. Hope you are having a great one!
                                     </p>
                                 </div>
                             </div>
