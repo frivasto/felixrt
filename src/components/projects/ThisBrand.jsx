@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../../layout/Layout'
-import { Link } from 'react-router-dom';
 
 
 class ThisBrand extends React.Component{
     
+    componentDidMount() {
+        document.title = "Felixrt- Project: Personal brand"; 
+     }
+
     render(){
         return (
             <React.Fragment>

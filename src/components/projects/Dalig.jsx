@@ -3,6 +3,10 @@ import Layout from '../../layout/Layout'
 
 
 class Dalig extends React.Component{
+    componentDidMount() {
+        document.title = "Felixrt- Project: Dalig "; 
+     }
+    
     
     render(){
         return (

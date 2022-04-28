@@ -48,7 +48,7 @@ class ContactSection extends React.Component {
                                             placeholder="Type Message Here" required></textarea>
                                         </div>
                                         <div className="col-lg-6 col-10 mx-auto">
-                                        <ButtonMailto label="Send" mailto="mailto:no-reply@example.com" />
+                                        <ButtonMailto label="Send" mailto="mailto:frivasto@gmail.com" />
                                            
                                         </div>
                                     </form>

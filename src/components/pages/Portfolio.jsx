@@ -4,6 +4,10 @@ import Layout from '../../layout/Layout'
 
 
 class Portfolio extends React.Component{
+    componentDidMount() {
+        document.title = "Felixrt- Portfolio "; 
+     }
+    
     
     render(){
         return (

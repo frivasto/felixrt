@@ -8,19 +8,25 @@ import Education from '../misc/Education'
 import HomePortfolio from '../misc/HomePortfolio'
 import ContactSection from '../misc/ContactSection'
 
-const Home = () => {
-    return (
-        <React.Fragment>
-            <Layout currentPage="Home">
-                <Header />
-                <HomePortfolio />
-                <HomeAbout />
-                <Skills />
-                <Education />
-                <ContactSection />
-            </Layout>
-        </React.Fragment>
-    )
+class Home extends React.Component{
+    
+    componentDidMount() {
+        document.title = "Felixrt-"; 
+    }
+    render(){
+        return (
+            <React.Fragment>
+                <Layout currentPage="Home">
+                    <Header />
+                    <HomePortfolio />
+                    <HomeAbout />
+                    <Skills />
+                    <Education />
+                    <ContactSection />
+                </Layout>
+            </React.Fragment>
+        )
+     }
 }
 
 export default Home;

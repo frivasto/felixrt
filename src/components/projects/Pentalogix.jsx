@@ -4,9 +4,9 @@ import Layout from '../../layout/Layout'
 
 class Pentalogix extends React.Component{
 
-
-
-    
+    componentDidMount() {
+        document.title = "Felixrt- PentaLogix "; 
+    }
     
     render(){
         return (
