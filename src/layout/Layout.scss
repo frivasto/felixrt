@@ -517,8 +517,8 @@ textarea.form-control {
   background-position: bottom center !important;
  // background-clip: content-box;         	
   background-color: #110D14 !important;      
-  background-repeat: no-repeat !important;   
-  
+  background-repeat: no-repeat !important;    
+  background-size: 100%  100% !important;
 }
 @media (max-width: 767px) {
   .hero-area {
