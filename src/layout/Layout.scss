@@ -518,12 +518,14 @@ textarea.form-control {
  // background-clip: content-box;         	
   background-color: #110D14 !important;      
   background-repeat: no-repeat !important;    
-  background-size: 100%  100% !important;
+  background-size: 100% 70% !important;
 }
+
 @media (max-width: 767px) {
   .hero-area {
     padding: 250px 0 150px;
     overflow: hidden;
+    background-size: auto !important;
   }
 }
 .hero-area h1 {
