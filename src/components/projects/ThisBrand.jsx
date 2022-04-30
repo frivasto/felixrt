@@ -25,7 +25,8 @@ class ThisBrand extends React.Component{
                                     <h2 className="mb-2 px-3 px-md-0">Case of Study</h2>
                                     <p className="px-3 px-md-0"> 
                                         Now I would like to take you on a little inception tour. Everything you see around 
-                                        this website is part of my journey to build my own brand as a ui/ux designer. 
+                                        this website was designed using the Double Diamond framework with the intention of 
+                                        building my own brand as a ui/ux designer.
 
                                     </p>
                                 </div>
@@ -68,9 +69,9 @@ class ThisBrand extends React.Component{
                                 <div className="col-md-9 col-sm-12 mx-auto text-left">
                                     <h2 className="mb-3 text-center">The Solution</h2>
                                     <p className="lead-paragraph display px-3 px-md-0">
-                                        So I followed the Double Diamond Design framework to bind my artistic and technical 
-                                        experience and present it to the 
-                                        digital world in the form of typography, colors, images and lots of personality.
+                                        Create a short name, look and feel, and story that represents the binding of 
+                                        my artistic and technical experience and show it to the digital world 
+                                        in the form of typography, colors and lots of personality.
                                     </p>
                                 </div>
                             </div>
@@ -242,21 +243,36 @@ class ThisBrand extends React.Component{
                                     </div>
                                     <div className="row align-items-center mt-5">
                                         <div className="col-12 col-md-6 px-0 pr-md-5">
-                                            <h4 className="mb-2 text-left">Development</h4>
+                                            <h4 className="mb-2 text-left">Bootstrap</h4>
+                                            <p className="lead-paragraph mb-5 mb-md-0">
+                                                When designing the webpage, 
+                                                I used resources from Twitter's bootstrap, 
+                                                as well as their layout and grid system, 
+                                                in order to accelerate the frontend development process.
+                                            </p>
+                                        </div>
+                                        <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
+                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/grid.png'} 
+                                                    alt="Grid"/>
+                                        </div>
+                                    </div>
+                                    <div className="row align-items-center mt-5">
+                                        <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
+                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/code.jpg'} 
+                                                    alt="Code"/>
+                                        </div>
+                                        <div className="col-12 col-md-6 px-0 pl-md-4">
+                                            <h4 className="mb-2 text-left">Intention</h4>
                                             <p className="lead-paragraph mb-5 mb-md-0">
                                                 The code part was a little funny, because this is a simple portfolio page, 
                                                 so you may say I would have used the vanilla way to frontend a webpage, 
                                                 or even a Wordpress; but instead, 
                                                 I decided to keep practicing my ReactJs; and now 
                                                 I have a personal webpage well divided in ReactJs components.
+
                                             </p>
                                         </div>
-                                        <div className="col-12 col-md-6 px-0 pl-md-5 mb-5 mb-md-0">
-                                            <img className="portfolio-img" src={ process.env.PUBLIC_URL + '/images/portfolio/thisbrand/code.jpg'} 
-                                                    alt="Code"/>
-                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                              {/* Centred Important Description */}

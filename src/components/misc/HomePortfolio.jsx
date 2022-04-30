@@ -40,7 +40,7 @@ const HomePortfolio = () => {
                                         <Link to='/Portfolio/Dalig'>
                                             <h2 className="mb-3 text-left">DALIG</h2>
                                         </Link>
-                                        <h6 className="mb-3 text-left tagline">UI/UX DESIGN  · MOBILE<br/>BRAND DEVELOPMENT</h6>
+                                        <h6 className="mb-3 text-left tagline">UI/UX DESIGN · USER CENTERED DESIGN<br/>BRAND DEVELOPMENT · MOBILE</h6>
                                         <p className="lead-paragraph mb-5 mb-md-0">
                                             DALIG is a mobile app that allows athletes to create and participate in competitions, 
                                             then they can upload their scores; they will have leaderboards and a 
@@ -53,7 +53,7 @@ const HomePortfolio = () => {
                                         <Link to='/Portfolio/ThisBrand'>
                                             <h2 className="mb-3 text-left">Felixrt-&lt;3</h2>
                                         </Link>
-                                        <h6 className="mb-3 text-left tagline"> UI/UX DESIGN  · WEB <br/>BRAND DEVELOPMENT</h6>
+                                        <h6 className="mb-3 text-left tagline"> UI/UX DESIGN · DOUBLE DIAMOND DESIGN <br/>BRAND DEVELOPMENT · WEB</h6>
                                         <p className="lead-paragraph mb-3 mb-md-0">
                                             This is the story of how I created this brand; I mean my personal brand, 
                                             and the website you are reading this from.
@@ -78,7 +78,7 @@ const HomePortfolio = () => {
                                         <Link to='/Portfolio/Pentalogix'>
                                             <h2 className="mb-3 text-left">PentaLogix</h2>
                                         </Link>
-                                        <h6 className="mb-3 text-left tagline">UI/UX  DESIGN    ·    WEB    ·    MARKETING <br/> FRONTEND DEVELOPMENT</h6>
+                                        <h6 className="mb-3 text-left tagline">UI/UX  DESIGN  ·  LEAN UX DESIGN<br/> WEB  ·  MARKETING  ·  FRONTEND DEVELOPMENT</h6>
                                         <p className="lead-paragraph mb-5 mb-md-0">
                                             PentaLogix is a web shopping cart that allows customers to get customized quotes from
                                             different PCB suppliers, and then buy them. 

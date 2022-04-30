@@ -23,12 +23,11 @@ class Pentalogix extends React.Component{
                                 </div>
                                  <div className="row main-description pb-5">
                                     <div className="col-md-8 offset-md-1 col-sm-12 text-left">
-                                        <h2 className="mb-2 px-3 px-md-0">This site...</h2>
+                                        <h2 className="mb-2 px-3 px-md-0">Case of study</h2>
                                         <p className="px-3 px-md-0">
-                                            PL (short for PentaLogix) was my home on and off for several Years&amp;Years. In this Case of Study
-                                            I will tell you how I transformed a static web page into a modern 
-                                            semantic web application with an automatic customer-supplier quoting interface, integrated with 
-                                            Google Analytics, MailChimp-then-SendInBlue, plus SEO and SEM to boost its performance. 
+                                            I used the Lean UX design framework to transform Pentalogix's static web page into a modern 
+                                            semantic web application, with an automatic customer/supplier quoting interface, and an integration with 
+                                            web marketing tools like Google Analytics, Adsense and MailChimp-then-SendInBlue.
                                         </p>
                                     </div>
                                 </div>
@@ -70,10 +69,9 @@ class Pentalogix extends React.Component{
                                     <div className="col-md-9 col-sm-12 mx-auto text-left">
                                         <h2 className="mb-3 text-center">The Solution</h2>
                                         <p className="lead-paragraph display px-3 px-md-0">
-                                            I followed the Lean UX Design framework to create a Shopping Cart application, 
-                                            in an iterative process that lasted for about 4 years; With the creation of custom quotes, 
-                                            landing pages and Printed Circuit Board products that complemented the CAD Software Products, 
-                                            which were already popular among PCB designers. 
+                                            Take advantage of the iterative nature of Lean UX to integrate the 
+                                            information PL's already have to feed the landing pages, custom quotes and products of 
+                                            a new Shopping Cart application. 
                                         </p>
                                     </div>
                                 </div>
@@ -160,7 +158,7 @@ class Pentalogix extends React.Component{
                                 <div className="row ping-pong-photo py-5 my-5">
                                     <div className="col-11 col-md-10 mx-auto">
                                         <div className="row">
-                                            <h6 className="mb-4 display">The Semantic Plus</h6>
+                                            <h6 className="mb-4 display">The Semantics</h6>
                                         </div>
                                         <div className="row align-items-center">
                                             <div className="col-12 col-md-6 px-0 pr-md-4 mb-5 mb-md-0">
@@ -170,7 +168,7 @@ class Pentalogix extends React.Component{
                                             </div>
                                             <div className="col-12 col-md-6 px-0 pl-md-4">
                                                 <p className="lead-paragraph mb-5 mb-md-0">
-                                                    I also started tracking how people were searching to get to the pages
+                                                     I started tracking how people were searching to get to the pages
                                                      by integrating Google Analytics to the website, 
                                                      which later evolved into an aggressive SEO and SEM campaign.
                                                 </p>
