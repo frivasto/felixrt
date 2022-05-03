@@ -262,7 +262,7 @@ class ThisBrand extends React.Component{
                                                     alt="Code"/>
                                         </div>
                                         <div className="col-12 col-md-6 px-0 pl-md-4">
-                                            <h4 className="mb-2 text-left">Intention</h4>
+                                            <h4 className="mb-2 text-left">Frontend</h4>
                                             <p className="lead-paragraph mb-5 mb-md-0">
                                                 The code part was a little funny, because this is a simple portfolio page, 
                                                 so you may say I would have used the vanilla way to frontend a webpage, 
