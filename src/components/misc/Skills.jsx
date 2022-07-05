@@ -35,14 +35,15 @@ class Skills extends React.Component {
                                             <li>UI/UX</li>
                                             <li>Web, Mobile</li>
                                             <li>Brand Development</li>
-                                            <li>Interaction Maps</li>
-                                            <li>Video Production</li>
+                                            <li>Interaction Design</li>
                                             <li>Responsive</li>
+                                            <li>Video Production</li>
                                         </ul>
                                         <ul className="pl-0 mt-4">
                                             <li>Figma</li>
                                             <li>Adobe Creatives</li>
-                                            <li>User centred design </li>
+                                            <li>Design Frameworks</li>
+                                            <li>User-Centered Design</li>
                                         </ul>
                                     </div>
                                     
@@ -53,8 +54,8 @@ class Skills extends React.Component {
                                             <li>CMS</li>
                                             <li>GitHub</li>
                                             <li>SpreeCommerce</li>
-                                            <li>Basic Deployment</li>
                                             <li>Basic Backend</li>
+                                            <li>Basic Deployment</li>
                                         </ul>
                                         <ul className="pl-0 mt-4">
                                             <li>ReactJS</li>
@@ -68,19 +69,17 @@ class Skills extends React.Component {
                                         
                                     </div>
                                     <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                                        <h4>Branding</h4>
+                                        <h4>Digital Marketing</h4>
                                         <ul className="pl-0">
                                             <li>Analytics</li>
                                             <li>Semantic sites</li>
                                             <li>SEO, SEM</li>
                                             <li>Conversion Goals</li>
-                                            <li>Inbound, Outbound Linking</li>
                                             <li>Email Marketing</li>
                                         </ul>
                                         <ul className="pl-0 mt-4">
                                             <li>Google Analytics</li>
-                                            <li>Goodle Adsense</li>
-                                            <li>Social Media Ads</li>
+                                            <li>Goodle Ads</li>
                                             <li>Maichimp</li>
                                             <li>SendinBlue</li>
                                         </ul>
@@ -91,7 +90,6 @@ class Skills extends React.Component {
                                         <ul className="pl-0">
                                             <li>Transparency </li>
                                             <li>Productivity</li>
-                                            <li>Organized</li>
                                             <li>Creativity</li>
                                             <li>Work Ethic</li>
                                             <li>Bilingual(EN,ES)</li>
@@ -100,10 +98,10 @@ class Skills extends React.Component {
                                         <ul className="pl-0 mt-4">
                                             <li>Scrum</li>
                                             <li>Design Sprints</li>
-                                            <li>Threlo, Asana</li>
+                                            <li>Trello, Asana</li>
                                             <li>Jira</li>
                                             <li>GitHub, GitLab</li>
-                                            <li>Pomodoro Thecnique</li>
+                                            <li>Pomodoro Technique</li>
                                         </ul>
                                     </div>
                                 </div>
